@@ -1,0 +1,223 @@
+[28-Apr-2022 14:17:20 Asia/Tashkent] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/zphospit/dev.zphospitals.uz/frontend/controllers/SiteController.php on line 222. in /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/zphospit/dev.zphospitals.uz/frontend/controllers/SiteController.php on line 222. in /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Application.php(390): yii\web\Response->send()
+#2 /home/zphospit/dev.zphospitals.uz/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => 'advanced-frontend=7176ff50516420bd5ca1003e367e3cb1; _csrf-frontend=8eb9fc1fd26f519973b2072fc031e10a7ebc55d33faff5826430062cad368170a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nCwJZigN5ypidjWY7NbFtUOIs4_rRMYX%22%3B%7D; _identity-backend=973d7ac81d1742fe29474bcf64c535cbaec8c6d995ba5be3542433b4768029a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22LJ8Vw7WbBkxFzEmwEwuoAGUudU68Gval%22%2C2592000%5D%22%3B%7D; _csrf-backend=e17fa10f5244b4264c2e0da5c41ee2b78234465798415d5696c79aa8949e4914a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Bz8XCteEbbf2O0MQcH7bp3aou7mWu_cR%22%3B%7D; _ga=GA1.2.1244449438.1651121691; _gid=GA1.2.39156422.1651121691; advanced-backend=ca314c8ed811ce2e1bb690def18206e1; language=cba1fca163364a8e59437883cd426172931d6896dc593a04526b7b2dda82d58da%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D',
+    'HTTP_HOST' => 'dev.zphospitals.uz',
+    'HTTP_REFERER' => 'https://dev.zphospitals.uz/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_X_FORWARDED_HOST' => 'dev.zphospitals.uz',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_SERVER' => 'dev.zphospitals.uz',
+    'HTTP_X_REAL_IP' => '::ffff:213.230.100.151',
+    'HTTP_SEC_CH_UA' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+    'HTTP_SEC_CH_UA_MOBILE' => '?0',
+    'HTTP_SEC_CH_UA_PLATFORM' => '"macOS"',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'YmpboBTEyq1T-tVHbrRJnAAAAY0',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YmpboBTEyq1T-tVHbrRJnAAAAY0',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'YmpboBTEyq1T-tVHbrRJnAAAAY0',
+    'HTTPS' => 'on',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dev.zphospitals.uz',
+    'SERVER_ADDR' => '83.69.139.168',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '213.230.100.151',
+    'DOCUMENT_ROOT' => '/home/zphospit/dev.zphospitals.uz',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/zphospit/dev.zphospitals.uz',
+    'SERVER_ADMIN' => 'webmaster@dev.zphospitals.uz',
+    'SCRIPT_FILENAME' => '/home/zphospit/dev.zphospitals.uz/frontend/web/index.php',
+    'REMOTE_PORT' => '56244',
+    'REDIRECT_URL' => '/frontend/web/about',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/about',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1651137440.087261,
+    'REQUEST_TIME' => 1651137440,
+    'DB_HOST' => 'localhost',
+    'DB_NAME' => 'zphospit_dev',
+    'DB_USER' => 'zphospit_dev',
+    'DB_PASS' => 'wucHDuT[zz{5',
+]
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Notice:  file_put_contents(): write of 8192 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Warning:  file_put_contents(): Only -1 of 189584 bytes written, possibly out of free disk space in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Notice:  fwrite(): write of 8192 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 157
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Notice:  file_put_contents(): write of 8192 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Warning:  file_put_contents(): Only -1 of 190562 bytes written, possibly out of free disk space in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[19-Aug-2022 11:10:56 Asia/Tashkent] PHP Notice:  fwrite(): write of 367 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 157
+[21-Aug-2022 17:39:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:40:50 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:45:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:45:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:46:01 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:46:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:52:14 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:52:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 17:53:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:01:17 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:05:40 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:18:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:18:27 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:18:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:18:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:23:48 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:23:48 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:23:59 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:24:37 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:29:47 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:32:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:35:19 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:37:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 18:59:27 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:05:44 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:11:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:21:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:35:09 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:48:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:50:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 19:52:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 20:05:25 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 20:10:48 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 20:21:46 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 20:29:43 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 20:35:08 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 21:01:02 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 21:05:04 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 21:34:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 22:05:04 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 22:35:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 23:05:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[21-Aug-2022 23:35:43 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 00:00:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 00:05:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 00:33:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 00:35:07 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 00:46:42 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:05:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:35:04 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:41:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:44:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:52:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:54:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:55:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:58:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 01:58:50 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:03:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:05:11 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:09:40 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:11:10 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:27:52 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:29:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:34:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:35:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:48:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:55:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 02:55:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:08:31 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:16:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:26:32 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:35:33 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:35:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:40:21 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:49:59 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:55:20 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:56:44 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:59:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:04:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:04:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:05:25 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:10:02 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:10:22 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:10:45 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:11 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:21 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:23 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:33 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:11:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:12:45 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:13:00 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:13:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:15:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:20:22 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:20:37 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:21:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:23:42 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:26:43 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:27:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:27:19 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 04:29:32 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[25-Aug-2022 18:37:12 Asia/Tashkent] PHP Notice:  file_put_contents(): write of 8192 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[25-Aug-2022 18:37:12 Asia/Tashkent] PHP Warning: 

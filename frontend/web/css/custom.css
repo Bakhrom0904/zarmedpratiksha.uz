@@ -1,0 +1,104 @@
+.doctor-card {
+    min-height: 250px;
+    max-height: 300px;
+    height: 300px;
+}
+
+.doctor-card img {
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.container-custom {
+    max-width: 1400px !important;
+}
+
+.slicknav_nav {
+    top: 100px !important;
+}
+
+.card-image {
+    overflow: hidden;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.insurance-image {
+    overflow: hidden;
+    max-height: 140px;
+}
+
+.insurance-image img {
+    object-fit: cover;
+}
+
+.uz {
+    background-image: url("../images/icons/uz.png") !important;
+}
+
+.text-grey {
+    color: #252525;
+}
+
+.btn-lightblue {
+    background-color: #00baff !important;
+}
+
+.badge-medium{
+    background-color: #E7E7E7;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.navbar-nav li a {
+    text-transform: none !important;
+}
+
+.header-btn a,
+.slide-contain p,
+.slide-contain div a,
+.slide-contain .cl-white,
+.cl-green,
+.btn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: lowercase;
+}
+
+.header-btn a:first-letter,
+.cl-green:first-letter,
+.slide-contain .cl-white:first-letter,
+.slide-contain div a:first-letter,
+.slide-contain p:first-letter,
+.btn:first-letter,
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+h4:first-letter,
+h5:first-letter,
+h6:first-letter {
+    text-transform: uppercase ;
+}
+
+.nice-select.open .list {
+    max-height: 400px;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .doctor-card {
+        min-height: 250px;
+        max-height: 400px;
+        height: 400px;
+    }
+}

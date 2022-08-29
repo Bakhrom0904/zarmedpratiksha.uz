@@ -1,0 +1,145 @@
+[15-Apr-2022 22:27:59 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:27:59 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:00 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:00 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:01 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:08 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:28:08 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:12 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:12 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:19 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:19 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:49 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:49 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:52 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 22:32:52 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 23:14:32 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 23:14:32 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 23:18:03 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[15-Apr-2022 23:18:03 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[16-Apr-2022 15:38:28 Asia/Tashkent] PHP Warning:  require(/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php): failed to open stream: No such file or directory in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[16-Apr-2022 15:38:28 Asia/Tashkent] PHP Fatal error:  require(): Failed opening required '/home/zphospit/dev.zphospitals.uz/backend/config/params-local.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/zphospit/dev.zphospitals.uz/backend/config/main.php on line 7
+[19-Apr-2022 09:49:44 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[19-Apr-2022 19:09:39 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[19-Apr-2022 19:09:54 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[19-Apr-2022 20:27:38 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[19-Apr-2022 21:30:29 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[19-Apr-2022 22:22:52 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[20-Apr-2022 08:41:03 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[20-Apr-2022 10:02:01 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[20-Apr-2022 10:02:15 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[20-Apr-2022 10:02:16 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[20-Apr-2022 10:02:31 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[20-Apr-2022 10:03:37 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[20-Apr-2022 10:30:06 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/vendor/kartik-v/yii2-tabs-x/src/TabsX.php on line 463
+[20-Apr-2022 10:41:45 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 11
+[20-Apr-2022 10:43:33 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 13
+[20-Apr-2022 10:43:34 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 13
+[20-Apr-2022 10:43:35 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 13
+[20-Apr-2022 10:43:35 Asia/Tashkent] PHP Parse error:  syntax error, unexpected '?' in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 13
+[20-Apr-2022 10:43:49 Asia/Tashkent] PHP Fatal error:  Call to undefined function php_info() in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/_list.php on line 6
+[20-Apr-2022 11:57:35 Asia/Tashkent] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/zphospit/dev.zphospitals.uz/backend/controllers/DoctorController.php on line 60. in /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Invalid argument supplied for foreach() in /home/zphospit/dev.zphospitals.uz/backend/views/doctor/view.php:67
+Stack trace:
+#0 /home/zphospit/dev.zphospitals.uz/backend/views/doctor/view.php(67): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/home/zphospit/...', 67, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(common\models\Doctor), Object(yii\widgets\DetailView))
+#2 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/widgets/DetailView.php(245): call_user_func(Object(Closure), Object(common\models\Doctor), Object(yii\widgets\DetailView))
+#3 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/widgets/DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#4 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\BaseObject->__construct(Array)
+#6 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/di/Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#7 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Widget.php(143): yii\BaseYii::createObject(Array)
+#10 /home/zphospit/dev.zphospitals.uz/backend/views/doctor/view.php(77): yii\base\Widget::widget(Array)
+#11 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/View.php(347): require('/home/zphospit/...')
+#12 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zphospit/...', Array)
+#13 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zphospit/...', Array, Object(backend\controllers\DoctorController))
+#14 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('view', Array, Object(backend\controllers\DoctorController))
+#15 /home/zphospit/dev.zphospitals.uz/backend/controllers/DoctorController.php(62): yii\base\Controller->render('view', Array)
+#16 [internal function]: backend\controllers\DoctorController->actionView('2')
+#17 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('view', Array)
+#20 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('doctor/view', Array)
+#21 /home/zphospit/dev.zphospitals.uz/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/zphospit/dev.zphospitals.uz/backend/web/index.php(18): yii\base\Application->run()
+#23 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => 'advanced-frontend=f11578aa9a74017dd87399b3589c5973; _csrf-frontend=d7a76a8fdcbafe37055a62e594c5f828b95d1520b47b7518a5bb799f9e65429da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Co5AUKiUDemCrSKWJyG8IEh4HJSXqNkm%22%3B%7D; advanced-backend=a0c0582eb26269ee92d049aa8c2e7e40; _identity-backend=973d7ac81d1742fe29474bcf64c535cbaec8c6d995ba5be3542433b4768029a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22LJ8Vw7WbBkxFzEmwEwuoAGUudU68Gval%22%2C2592000%5D%22%3B%7D; _csrf-backend=2d9159443c5b166c7260b6e8b148ac9b51db7a74c7235fd94d15bafc5245fa9ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223cbFhAIZCGnn3iv3mtczXt4sXKMCpytM%22%3B%7D; language=dc32f7535e010fb6afd4ff76e9291c96469cca219263a247a5771a8f85249324a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D',
+    'HTTP_HOST' => 'dev.zphospitals.uz',
+    'HTTP_REFERER' => 'https://dev.zphospitals.uz/admin/doctor',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+    'HTTP_X_FORWARDED_HOST' => 'dev.zphospitals.uz',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_SERVER' => 'dev.zphospitals.uz',
+    'HTTP_X_REAL_IP' => '::ffff:84.54.83.153',
+    'HTTP_SEC_CH_UA' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+    'HTTP_SEC_CH_UA_MOBILE' => '?0',
+    'HTTP_SEC_CH_UA_PLATFORM' => '"Linux"',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'REDIRECT_UNIQUE_ID' => 'Yl-u3-nwaPtCMTD5pAI1rAAAAdE',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Yl-u3-nwaPtCMTD5pAI1rAAAAdE',
+    'HTTPS' => 'on',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dev.zphospitals.uz',
+    'SERVER_ADDR' => '83.69.139.168',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '84.54.83.153',
+    'DOCUMENT_ROOT' => '/home/zphospit/dev.zphospitals.uz',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/zphospit/dev.zphospitals.uz',
+    'SERVER_ADMIN' => 'webmaster@dev.zphospitals.uz',
+    'SCRIPT_FILENAME' => '/home/zphospit/dev.zphospitals.uz/backend/web/index.php',
+    'REMOTE_PORT' => '17858',
+    'REDIRECT_URL' => '/admin/doctor/view',
+    'REDIRECT_QUERY_STRING' => 'id=2',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'id=2',
+    'REQUEST_URI' => '/admin/doctor/view?id=2',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1650437855.683369,
+    'REQUEST_TIME' => 1650437855,
+    'DB_HOST' => 'localhost',
+    'DB_NAME' => 'zphospit_dev',
+    'DB_USER' => 'zphospit_dev',
+    'DB_PASS' => 'wucHDuT[zz{5',
+]
+[15-Jun-2022 14:49:42 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/zphospit/dev.zphospitals.uz/backend/views/layouts/template.php on line 54
+[27-Jun-2022 11:10:34 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/zphospit/dev.zphospitals.uz/backend/views/layouts/template.php on line 54
+[15-Aug-2022 10:45:09 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/zphospit/dev.zphospitals.uz/backend/views/layouts/template.php on line 54
+[22-Aug-2022 03:11:12 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[22-Aug-2022 03:11:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
+[25-Aug-2022 21:42:10 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
