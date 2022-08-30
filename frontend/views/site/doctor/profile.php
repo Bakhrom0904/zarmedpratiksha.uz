@@ -63,7 +63,7 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'O
                                     <span class="cl-blue fw-bold"><?= Lx::t('frontend', 'Experience') ?></span>
                                 </div>
                                 <div class="w-75">
-                                    <span><?= $doctor->experience . ' ' . Lx::t('frontend', 'Year') ?></span>
+                                    <span><?= $doctor->experience . ' ' . Lx::t('frontend', 'Years') ?></span>
                                 </div>
                             </div>
                         </div>
