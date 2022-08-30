@@ -8,7 +8,7 @@ use common\widgets\Affiliation;
 use lajax\translatemanager\helpers\Language as Lx;
 use yii\helpers\Url;
 $lang = Yii::$app->language;
-$this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'Our Doctors').' - '. $doctor->{"first_name_$lang"}.' '.$doctor->{"last_name_$lang"}.' '.$doctor->{"middle_name_$lang"};
+$this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'Our Doctors');
 ?>
 <?= Banner::widget(['title' => $this->title]) ?>
 <?php if (!is_null($doctor)) { ?>
