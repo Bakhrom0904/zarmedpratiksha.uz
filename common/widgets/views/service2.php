@@ -58,9 +58,9 @@ use yii\helpers\Url;
             <div class="col-lg-4 col-md-6">
                 <a href="<?= Url::to(['departments']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white">
-                        <i class="fas fa-star-of-life cl-green"></i>
+                        <i class="fas fa-medkit cl-green"></i>
                         <div class="sv-detail pl-4">
-                            <h4><?= Lx::t('frontend', 'Cancer Service') ?></h4>
+                            <h4><?= Lx::t('frontend', 'Call an emergency') ?></h4>
                             <p class="cl-grey"></p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ use yii\helpers\Url;
             <div class="col-lg-4 col-md-6">
                 <a href="<?= Url::to(['about']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white mb-0">
-                        <i class="fas fa-medkit cl-green"></i>
+                        <i class="fas fa-star-of-life cl-green"></i>
                         <div class="sv-detail pl-4">
                             <h4><?= Lx::t('frontend', 'Outdoor Checkup') ?></h4>
                         </div>
