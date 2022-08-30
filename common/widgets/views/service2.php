@@ -60,7 +60,7 @@ use yii\helpers\Url;
                     <div class="service-aa p-4 d-flex align-items-center bg-white">
                         <i class="fas fa-medkit cl-green"></i>
                         <div class="sv-detail pl-4">
-                            <h4><?= Lx::t('frontend', 'Call an emergency') ?></h4>
+                            <h4><?= Lx::t('frontend', 'Call An Emergency') ?></h4>
                             <p class="cl-grey"></p>
                         </div>
                     </div>
