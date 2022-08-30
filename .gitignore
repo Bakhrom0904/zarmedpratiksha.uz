@@ -36,3 +36,6 @@ phpunit.phar
 
 .env
 /tmp_folder
+
+# ignore generated files
+/frontend/web/index.php
