@@ -26,9 +26,6 @@ use yii\helpers\Url;
                         <a target="_blank" href="<?= $social['linkedin']['value'] ?? '' ?>"><i class="<?= $social['linkedin']['icon'] ?? '' ?>"></i></a>
                     </li>
                     <li class="pl-2">
-                        <a target="_blank" href="<?= $social['twitter']['value'] ?? '' ?>"><i class="<?= $social['twitter']['icon'] ?? '' ?>"></i></a>
-                    </li>
-                    <li class="pl-2">
                         <a href="#" title="<?= Lx::t('frontend', 'Patient Login') ?>"><i class="fas fa-user-tie"></i></a>
                     </li>
                 </ul>
