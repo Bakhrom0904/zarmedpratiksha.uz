@@ -12,7 +12,7 @@ use yii\helpers\Url;
                     <li class="pr-2"><i class="far fa-clock"></i> <?= Lx::t('frontend', 'Open Hours: 24/7') ?></li>
                     <li class="pr-2"><i class="<?= $social['phone']['icon'] ?? '' ?>"></i>
                         <a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
-                    <li><i class="<?= $social['email']['icon'] ?? '' ?>"></i> <a
+                    <li><span style="color: white">TJ</span>&nbsp; <a
                                 href="mailto:<?= $social['email']['value'] ?? '' ?>" class="text-white __cf_email__"><?= $social['email']['value'] ?? '' ?></a></li>
                 </ul>
                 <ul class="t-social">
