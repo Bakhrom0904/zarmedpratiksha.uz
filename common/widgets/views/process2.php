@@ -6,54 +6,21 @@ use yii\helpers\Url;
 ?>
 <section class="w-process bg-sfgrey-2">
     <div class="container">
-        <div class="sc-title-two text-center">
-            <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Easy Solutions') ?></h4>
-            <h2><?= Lx::t('frontend', 'TAKE 4 SIMPLE STEPS AND GET THE BEST SOLUTION FOR YOUR ILLNESS') ?></h2>
-        </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['doctors']) ?>">
-                    <div class="pcs-list p-2">
-                        <i class="fas fa-user-md"></i>
-                        <h3><?= Lx::t('frontend', 'CHECK OUT DOCTOR\'S PROFILE') ?></h3>
-                        <p class="cl-grey">
-                        </p>
-                    </div>
-                </a>
+            <div class="col-lg-6 mb-3">
+                <h3 style="text-align: center;color:#283779 "><?= Lx::t('frontend', 'Uzbekistan') ?></h3>
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.0486070657944!2d66.94431071570048!3d39.64862060991711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d19fbf4b2d8d9%3A0x7349d93e43099d11!2sZARMED%20PRATIKSHA%20Bog&#39;ishamol!5e0!3m2!1sru!2s!4v1650259779786!5m2!1sru!2s"
+                            width="100%" style="border:0; min-height: 450px" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['contact']) ?>">
-                    <div class="pcs-list p-2">
-                        <i class="fas fa-laptop-medical"></i>
-                        <h3><?= Lx::t('frontend', 'SIGN UP FOR A CONSULTATION') ?></h3>
-                        <p class="cl-grey">
-                        </p>
-                    </div>
-                </a>
+            <div class="col-lg-6 mb-3">
+                <h3 style="text-align: center;color:#283779 "><?= Lx::t('frontend', 'Tajikistan') ?></h3>
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7466.504011988868!2d-11.406255!3d20.659324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6cad7773d51d5b5!2zMjDCsDM5JzMzLjYiTiAxMcKwMjQnMjIuNSJX!5e0!3m2!1suz!2s!4v1662701178344!5m2!1suz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['contact']) ?>">
-                    <div class="pcs-list p-2">
-                        <i class="fas fa-star-of-life"></i>
-                        <h3><?= Lx::t('frontend', 'GET A CONSULTATION') ?></h3>
-                        <p class="cl-grey">
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['appointment']) ?>">
-                    <div class="pcs-list p-2">
-                        <i class="fas fa-user-md"></i>
-                        <h3><?= Lx::t('frontend', 'GET THE BEST TREATMENT') ?></h3>
-                        <p class="cl-grey">
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="short-info cl-blue pt-1 mt-3 text-center">
-<!--            <p>--><?//= Lx::t('frontend', 'Healthcare providers, including pediatricians, dentists, and other doctors, require signed medical release forms before administering medical treatment or prescribing medications, with the exception of life threatening medical treatments.') ?><!--</p>-->
         </div>
     </div>
 </section>

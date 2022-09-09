@@ -10,8 +10,8 @@ use yii\helpers\Url;
             <div class="top-info d-flex justify-content-between align-items-center">
                 <ul class="t-address">
                     <li class="pr-2"><i class="far fa-clock"></i> <?= Lx::t('frontend', 'Open Hours: 24/7') ?></li>
-                    <li class="pr-2"><i class="<?= $social['phone']['icon'] ?? '' ?>"></i>
-                        <a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
+<!--                    <li class="pr-2"><i class="--><?//= $social['phone']['icon'] ?? '' ?><!--"></i>-->
+                    <li><span style="color: white">UZ</span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
                     <li><span style="color: white">TJ</span>&nbsp; <a
                                 href="mailto:<?= $social['email']['value'] ?? '' ?>" class="text-white __cf_email__"><?= $social['email']['value'] ?? '' ?></a></li>
                 </ul>
