@@ -12,7 +12,7 @@ use lajax\translatemanager\helpers\Language as Lx;
     <div class="container">
         <div class="sc-title-two text-center">
 <!--            <h4 class="cl-green">Our Blogs</h4>-->
-            <h2><?= Lx::t('frontend', 'News from our hospital') ?></h2>
+            <h2><?= Lx::t('frontend', 'NEWS AND PROMOTIONS OF OUR HOSPITAL') ?></h2>
         </div>
         <div class="blog-wrap">
 
