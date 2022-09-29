@@ -8,6 +8,7 @@ use common\models\Contact;
 use common\models\Department;
 use common\models\GoogleAds;
 use common\models\Menu;
+use common\models\News;
 use common\models\Seo;
 use common\models\Time;
 use dominus77\sweetalert2\Alert;
@@ -25,6 +26,7 @@ use frontend\controllers\services\PagesService;
 use frontend\controllers\services\SliderService;
 use frontend\controllers\services\SocialService;
 use Yii;
+use yii\data\Pagination;
 use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
 
@@ -101,6 +103,23 @@ class SiteController extends Controller
             $this->Seo('og:description',  $seo->desc);
         }
         return $this->render('index', compact('doctors', 'banners'));
+    }
+
+    public function actionNews()
+    {
+        $m=News::find();
+
+        $sahifa=new Pagination(["totalCount"=>$m->count(),'defaultPageSize'=>3]);
+
+        $news=$m->offset($sahifa->offset)->limit($sahifa->limit)->orderBy("id DESC")->all();
+
+        return $this->render("news",["news"=>$news,"sahifa"=>$sahifa]);
+    }
+
+    public function actionDetail($id)
+    {
+        $new=News::findOne(["id"=>$id]);
+        return $this->render("detail",["new"=>$new]);
     }
 
     /***
