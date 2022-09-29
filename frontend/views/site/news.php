@@ -8,7 +8,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 <?php $description='description_'.Yii::$app->language;    ?>
 
 
-<section class="blog-main bg-sfgrey-2" style="margin-top:70px">
+<section class="blog-main bg-sfgrey-2" style="margin-top:100px">
     <div class="container">
         <div class="sc-title-two text-center">
 <!--            <h4 class="cl-green">Our Blogs</h4>-->

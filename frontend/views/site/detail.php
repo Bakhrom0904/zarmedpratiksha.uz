@@ -4,16 +4,10 @@ use yii\helpers\Url;
 
 
 ?>
-<section class="breadcrumb-wrap">
-    <div class="container">
-        <h2 class="cl-white mb-0"><?= Lx::t('frontend', 'News from our hospital') ?></h2>
-    </div>
-    <div class="overlay"></div>
-</section>
 <?php $title='title_'.Yii::$app->language;    ?>
 <?php $description='description_'.Yii::$app->language;    ?>
 
-<section class="aboutus aboutus-3">
+<section class="aboutus aboutus-3" style="margin-top: 100px">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12">
