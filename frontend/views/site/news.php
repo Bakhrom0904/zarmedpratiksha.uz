@@ -6,14 +6,9 @@ use lajax\translatemanager\helpers\Language as Lx;
 <?php $title='title_'.Yii::$app->language;    ?>
 <?php $short='short_'.Yii::$app->language;?>
 <?php $description='description_'.Yii::$app->language;    ?>
-<section class="breadcrumb-wrap">
-    <div class="container">
-        <h2 class="cl-white mb-0"><?= Lx::t('frontend', 'News and Promotions') ?></h2>
-    </div>
-    <div class="overlay"></div>
-</section>
 
-<section class="blog-main bg-sfgrey-2">
+
+<section class="blog-main bg-sfgrey-2" style="margin-top:70px">
     <div class="container">
         <div class="sc-title-two text-center">
 <!--            <h4 class="cl-green">Our Blogs</h4>-->
