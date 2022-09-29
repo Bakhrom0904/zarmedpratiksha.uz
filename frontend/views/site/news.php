@@ -38,7 +38,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                             </div>
                         </div>
                         <div class="article-footer">
-                            <b>29.09.2022</b>
+                            <?php $newDate = date("d-m-Y", strtotime($new->created_at)); ?>
+                            <b><?=$newDate;?></b>
                         </div>
                     </div>
                 </div>
