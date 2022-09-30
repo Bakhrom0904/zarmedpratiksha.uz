@@ -37,12 +37,12 @@ use yii\helpers\Url;
                                             class="fa-brands fa-telegram"></i></a>
                                 </li>
 
-                                <li class="m-2">
+                                <!-- <li class="m-2">
                                     <a class="btn btn-primary d-flex justify-content-center align-items-center"
                                         style="color:blue;background:white;width:60px; height:50px;border-radius: 50%;"
                                         target="_blank" href="https://www.facebook.com/zarmedpratiksha"><i
                                             class="fa-brands fa-instagram"></i></a>
-                                </li>
+                                </li> -->
                             </ul>
             </div>
             <div class="col-lg-7 col-md-12 p-lg-4">
