@@ -14,10 +14,29 @@ use yii\helpers\Url;
                 <div class="about-img position-relative">
                     <img src="/uploads/news/<?=$new->foto;?>" class="" alt="" />
                 </div>
-                <ul>
-                    <li><i class="fa-brands fa-facebook"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li>
-                </ul>
+                <ul class="social-links-a square-link list-unstyled d-flex flex-row">
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank" href="https://www.facebook.com/zarmedpratiksha"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                </li>
+                            
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank"
+                                        href="https://www.youtube.com/channel/UCGvS2Np6R03scueouVVpF8A"><i
+                                            class="fab fa-youtube"></i></a>
+                                </li>
+
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank" href="https://t.me/zarmedportal"><i
+                                            class="fa-brands fa-telegram"></i></a>
+                                </li>
+                            </ul>
             </div>
             <div class="col-lg-7 col-md-12 p-lg-4">
                 <div class="sc-title-one mb-3">
