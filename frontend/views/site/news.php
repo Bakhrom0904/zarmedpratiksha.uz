@@ -33,7 +33,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                             </div>
                         </div>
                         <div class="article-footer">
-                            <?php $newDate = date("d-m-Y", strtotime($new->created_at)); ?>
+                            <?php $newDate = date("d-m-Y H:i", strtotime($new->created_at)); ?>
                             <b><?=$newDate;?></b>
                         </div>
                     </div>

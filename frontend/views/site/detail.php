@@ -14,6 +14,10 @@ use yii\helpers\Url;
                 <div class="about-img position-relative">
                     <img src="/uploads/news/<?=$new->foto;?>" class="" alt="" />
                 </div>
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
             </div>
             <div class="col-lg-7 col-md-12 p-lg-4">
                 <div class="sc-title-one mb-3">
