@@ -41,6 +41,18 @@ return [
                 ],
             ],
         ],
+        'mailer' => [
+            'class' => 'yii\symfonymailer\Mailer',
+            'useFileTransport' => false,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'encryption' => 'tls',
+                'host' => 'smtp.gmail.com',
+                'port' => '587',
+                'username' => 'bahromislomov0409@gmail.com',
+                'password' => 'bahrom0409',
+            ],
+        ],
         'request' => [
             'baseUrl' => '',
             'csrfParam' => '_csrf-frontend',
