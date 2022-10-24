@@ -378,6 +378,19 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
+                Yii::$app->mailer->compose()
+                ->setFrom('bahromislomov0409@gmail.com')
+                ->setTo('zphospitaluzs@gmail.com')
+                ->setSubject('Sayt orqali murojaat')
+                // ->setTextBody('Test Body')
+                ->setHtmlBody("
+                <b>Name:$model->name<br><br>
+                Phone:$model->phone<br><br>
+                Email:$model->email<br><br>
+                Message:$model->message<b>
+                ")
+                ->send();
+
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
             }
