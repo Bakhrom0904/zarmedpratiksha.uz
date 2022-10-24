@@ -416,7 +416,8 @@ class SiteController extends Controller
         $departments = DepartmentService::getAll();
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
-                $doc=$model->doctor->first_name_uz;
+                $lang = Yii::$app->language;
+                $doc=$model->doctor->last_name_$lang." ".$model->doctor->first_name_$lang." ".$model->doctor->middle_name_$lang.;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
                 ->setFrom('bahromislomov0409@gmail.com')
