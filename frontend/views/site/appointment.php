@@ -31,8 +31,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                             <?php $form = ActiveForm::begin(['options' => ['class' => 'row g-3']]) ?>
                             <div class="col-md-12 px-2">
                                 <?= $form->field($model, 'department_id')->dropdownList(ArrayHelper::map($departments, 'id', function ($item) {
-                                    return $item->branch->title . ' - ' . $item->name;
-                                    
+                                    return $item->branch->title . ' - ' . $item->name; 
                                 }), ['id' => 'department', 'class' => 'niceSelect', 'prompt' => Lx::t('frontend', 'Select Department')])->label(false) ?>
                             </div>
                             <div class="col-md-12 px-2">
