@@ -381,11 +381,11 @@ class SiteController extends Controller
                 Yii::$app->mailer->compose()
                 ->setFrom('bahromislomov0409@gmail.com')
                 ->setTo('zphospitaluzs@gmail.com')
-                ->setSubject('Sayt orqali murojaat')
+                ->setSubject("Sizga xabar yubordi $model->name")
                 // ->setTextBody('Test Body')
                 ->setHtmlBody("
-                <b>Name:$model->name<br><br>
-                Phone:$model->phone<br><br>
+                <b>Fullname:$model->name<br><br>
+                Tel:$model->phone<br><br>
                 Email:$model->email<br><br>
                 Message:$model->message<b>
                 ")
