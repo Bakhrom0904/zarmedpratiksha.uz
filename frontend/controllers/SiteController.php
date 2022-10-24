@@ -414,6 +414,7 @@ class SiteController extends Controller
         $model = new Appointment();
         $doctors = DoctorService::getByLimit(4);
         $departments = DepartmentService::getAll();
+        $ap = \common\models\Appointment::findOne($model->id);
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
                 $lang = Yii::$app->language;
@@ -425,7 +426,7 @@ class SiteController extends Controller
                 // ->setTextBody('Test Body')
                 ->setHtmlBody("<b>
                 Bemor: $model->fullname<br><br>
-                Shifokor: $model->doctor->last_name_uz  $model->doctor->first_name_uz  $model->doctor->middle_name_uz<br><br>
+                Shifokor: $ap->doctor->last_name_uz  $ap->doctor->first_name_uz  $ap->doctor->middle_name_uz<br><br>
 
                 </b>")
                 ->send();
