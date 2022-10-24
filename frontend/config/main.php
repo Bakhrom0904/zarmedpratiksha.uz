@@ -42,15 +42,15 @@ return [
             ],
         ],
         'mailer' => [
-            'class' => 'yii\symfonymailer\Mailer',
+            'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => false,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'encryption' => 'tls',
-                'host' => 'smtp.gmail.com',
+                'host' => 'smtp.gmail.com', 
                 'port' => '587',
-                'username' => 'bahromislomov0409@gmail.com',
-                'password' => 'bahrom0409',
+                'username' => 'zphospitaluzs@gmail.com',
+                'password' => 'rtmcboxcxiatfgxh',
             ],
         ],
         'request' => [

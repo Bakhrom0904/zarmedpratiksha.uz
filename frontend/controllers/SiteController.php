@@ -423,6 +423,7 @@ class SiteController extends Controller
         }
         return $this->render('appointment', compact('departments', 'model', 'doctors'));
     }
+    
 
     public function Seo($name, $content){
         if ($name == "twitter:image")
@@ -578,5 +579,16 @@ class SiteController extends Controller
         }
 
         return [];
+    }
+
+    public function actionSendemail()
+    {
+            Yii::$app->mailer->compose()
+        ->setFrom('bahromislomov0409@gmail.com')
+        ->setTo('zphospitaluzs@gmail.com')
+        ->setSubject('Test subject')
+        // ->setTextBody('Test Body')
+        ->setHtmlBody('<b>Test Body</b>')
+        ->send();
     }
 }
