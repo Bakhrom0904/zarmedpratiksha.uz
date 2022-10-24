@@ -428,6 +428,8 @@ class SiteController extends Controller
                 Bemor: $model->fullname<br><br>
                 Shifokor: $doc<br><br>
                 Bo'lim: $b<br><br>
+                Tel: $model->phone<br><br>
+                Vaqti: $model->date<br><br>
                 </b>")
                 ->send();
             } else {
