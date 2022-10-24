@@ -414,10 +414,9 @@ class SiteController extends Controller
         $model = new Appointment();
         $doctors = DoctorService::getByLimit(4);
         $departments = DepartmentService::getAll();
-        $ap = \common\models\Appointment::findOne($model->id);
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
-                $lang = Yii::$app->language;
+                $doc=$model->doctor->first_name_uz;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
                 ->setFrom('bahromislomov0409@gmail.com')
@@ -426,7 +425,7 @@ class SiteController extends Controller
                 // ->setTextBody('Test Body')
                 ->setHtmlBody("<b>
                 Bemor: $model->fullname<br><br>
-                Shifokor: $ap->doctor->last_name_uz  $ap->doctor->first_name_uz  $ap->doctor->middle_name_uz<br><br>
+                Shifokor: $doc<br><br>
 
                 </b>")
                 ->send();
