@@ -414,6 +414,7 @@ class SiteController extends Controller
         $model = new Appointment();
         $doctors = DoctorService::getByLimit(4);
         $departments = DepartmentService::getAll();
+        $lang = Yii::$app->language;
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
@@ -422,10 +423,11 @@ class SiteController extends Controller
                 ->setTo('zphospitaluzs@gmail.com')
                 ->setSubject("Shifokor qabuliga yozildi $model->fullname")
                 // ->setTextBody('Test Body')
-                ->setHtmlBody("
+                ->setHtmlBody("<b>
                 Bemor: $model->fullname<br><br>
+                Shifokor: $model->doctor->last_name_$lang  $model->doctor->first_name_$lang  $model->doctor->middle_name_$lang<br><br>
 
-                ")
+                </b>")
                 ->send();
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
