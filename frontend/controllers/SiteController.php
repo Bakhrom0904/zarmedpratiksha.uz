@@ -421,7 +421,7 @@ class SiteController extends Controller
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
                 ->setFrom('bahromislomov0409@gmail.com')
-                ->setTo('zphospitaluzs@gmail.com')
+                ->setTo('bahromislomov3376@gmail.com')
                 ->setSubject("Shifokor qabuliga yozildi $model->fullname")
                 // ->setTextBody('Test Body')
                 ->setHtmlBody("<b>
