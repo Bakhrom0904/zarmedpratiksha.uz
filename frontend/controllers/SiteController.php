@@ -419,19 +419,19 @@ class SiteController extends Controller
                 $doc=$model->doctor->last_name_uz." ".$model->doctor->first_name_uz." ".$model->doctor->middle_name_uz;
                 $b=$model->department->name_uz;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
-                Yii::$app->mailer->compose()
-                ->setFrom('bahromislomov0409@gmail.com')
-                ->setTo('zphospitaluzs@gmail.com')
-                ->setSubject("Shifokor qabuliga yozildi $model->fullname")
-                // ->setTextBody('Test Body')
-                ->setHtmlBody("<b>
-                Bemor: $model->fullname<br><br>
-                Shifokor: $doc<br><br>
-                Bo'lim: $b<br><br>
-                Tel: $model->phone<br><br>
-                Vaqti: $model->date<br><br>
-                </b>")
-                ->send();
+                // Yii::$app->mailer->compose()
+                // ->setFrom('bahromislomov0409@gmail.com')
+                // ->setTo('zphospitaluzs@gmail.com')
+                // ->setSubject("Shifokor qabuliga yozildi $model->fullname")
+                // // ->setTextBody('Test Body')
+                // ->setHtmlBody("<b>
+                // Bemor: $model->fullname<br><br>
+                // Shifokor: $doc<br><br>
+                // Bo'lim: $b<br><br>
+                // Tel: $model->phone<br><br>
+                // Vaqti: $model->date<br><br>
+                // </b>")
+                // ->send();
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
             }
@@ -608,6 +608,8 @@ class SiteController extends Controller
         return [];
     }
 
+
+
     public function actionSendemail()
     {
             Yii::$app->mailer->compose()
@@ -618,4 +620,5 @@ class SiteController extends Controller
         ->setHtmlBody('<b>Test Body</b>')
         ->send();
     }
+    
 }

@@ -50,7 +50,7 @@ return [
                 'host' => 'smtp.gmail.com', 
                 'port' => '587',
                 'username' => 'zphospitaluzs@gmail.com',
-                'password' => 'rtmcboxcxiatfgxh',
+                'password' => 'squeelicqsidtlvk',
             ],
         ],
         'request' => [
