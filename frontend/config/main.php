@@ -49,8 +49,8 @@ return [
                 'encryption' => 'tls',
                 'host' => 'smtp.gmail.com', 
                 'port' => '587',
-                'username' => 'zphospitaluzs@gmail.com',
-                'password' => 'squeelicqsidtlvk',
+                'username' => 'bahromislomov3376@gmail.com',
+                'password' => 'isouxwuihpomepgq',
             ],
         ],
         'request' => [
