@@ -379,14 +379,14 @@ class SiteController extends Controller
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
-                ->setFrom('bahromislomov0409@gmail.com')
-                ->setTo('bahromislomov3376@gmail.com')
-                ->setSubject("Sizga xabar yubordi $model->name")
+                ->setFrom("$model->email")
+                ->setTo('zarmedsayt@gmail.com')
+                ->setSubject("Landing pagedan xabar")
                 ->setHtmlBody("
-                <b>Fullname:$model->name<br><br>
-                Tel:$model->phone<br><br>
+                <b>Name: $model->name<br><br>
+                Tel: $model->phone<br><br>
                 Email: $model->email<br><br>
-                Message:$model->message<b>
+                Xabar: $model->message<b>
                 ")
                 ->send();
 
@@ -420,9 +420,9 @@ class SiteController extends Controller
                 $b=$model->department->name_uz;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
-                ->setFrom('bahromislomov0409@gmail.com')
-                ->setTo('bahromislomov3376@gmail.com')
-                ->setSubject("Shifokor qabuliga yozildi $model->fullname")
+                ->setFrom("$model->fullname")
+                ->setTo('zarmedsayt@gmail.com')
+                ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
                 // ->setTextBody('Test Body')
                 ->setHtmlBody("<b>
                 Bemor: $model->fullname<br><br>
