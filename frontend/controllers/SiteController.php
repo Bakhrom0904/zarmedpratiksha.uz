@@ -420,7 +420,7 @@ class SiteController extends Controller
                 $b=$model->department->name_uz;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
                 Yii::$app->mailer->compose()
-                ->setFrom("$model->fullname")
+                ->setFrom("sayt@gmail.com")
                 ->setTo('zarmedsayt@gmail.com')
                 ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
                 // ->setTextBody('Test Body')
