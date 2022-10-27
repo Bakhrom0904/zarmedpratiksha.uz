@@ -378,17 +378,19 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
-                Yii::$app->mailer->compose()
-                ->setFrom("$model->email")
-                ->setTo('zarmedsayt@gmail.com')
-                ->setSubject("Landing pagedan xabar")
-                ->setHtmlBody("
-                <b>Name: $model->name<br><br>
-                Tel: $model->phone<br><br>
-                Email: $model->email<br><br>
-                Xabar: $model->message<b>
-                ")
-                ->send();
+
+                // Yii::$app->mailer->compose()
+                // ->setFrom("bahromislomov3376@gmail.com")
+                // ->setTo('zarmedsayt@gmail.com')
+                // ->setSubject("Sizga xabar yuborildi")
+                // ->setHtmlBody("
+                // <b>Name: $model->name<br><br>
+                // Tel: $model->phone<br><br>
+                // Email: $model->email<br><br>
+                // Xabar: $model->message<b>
+                // ")
+                // ->send();
+
 
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
@@ -419,19 +421,22 @@ class SiteController extends Controller
                 $doc=$model->doctor->last_name_uz." ".$model->doctor->first_name_uz." ".$model->doctor->middle_name_uz;
                 $b=$model->department->name_uz;
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
-                Yii::$app->mailer->compose()
-                ->setFrom("sayt@gmail.com")
-                ->setTo('zarmedsayt@gmail.com')
-                ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
-                // ->setTextBody('Test Body')
-                ->setHtmlBody("<b>
-                Bemor: $model->fullname<br><br>
-                Shifokor: $doc<br><br>
-                Bo'lim: $b<br><br>
-                Tel: $model->phone<br><br>
-                Vaqti: $model->date<br><br>
-                </b>")
-                ->send();
+
+                // Yii::$app->mailer->compose()
+                // ->setFrom("sayt@gmail.com")
+                // ->setTo('zarmedsayt@gmail.com')
+                // ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
+                // // ->setTextBody('Test Body')
+                // ->setHtmlBody("<b>
+                // Bemor: $model->fullname<br><br>
+                // Shifokor: $doc<br><br>
+                // Bo'lim: $b<br><br>
+                // Tel: $model->phone<br><br>
+                // Vaqti: $model->date<br><br>
+                // </b>")
+                // ->send();
+
+                
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
             }
