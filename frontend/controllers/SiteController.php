@@ -413,13 +413,15 @@ class SiteController extends Controller
 
     public function actionAppointment()
     {
+        $lang = Yii::$app->language;
+        $name = 'name_' . $lang;
         $model = new Appointment();
         $doctors = DoctorService::getByLimit(4);
         $departments = DepartmentService::getAll();
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
                 $doc=$model->doctor->last_name_uz." ".$model->doctor->first_name_uz." ".$model->doctor->middle_name_uz;
-                $b=$model->department->name_uz;
+                $b=$model->department->$name ? $model->department->$name : '';
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
 
                  Yii::$app->mailer->compose()
