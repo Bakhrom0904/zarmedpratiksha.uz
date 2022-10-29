@@ -379,17 +379,17 @@ class SiteController extends Controller
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
 
-                //  Yii::$app->mailer->compose()
-                //  ->setFrom("testzp4566@gmail.com")
-                //  ->setTo('sardor0418@mail.ru')
-                //  ->setSubject("Sizga xabar yuborildi")
-                //  ->setHtmlBody("
-                //  <b>Name: $model->name<br><br>
-                //  Tel: $model->phone<br><br>
-                //  Email: $model->email<br><br>
-                //  Xabar: $model->message<b>
-                //  ")
-                //  ->send();
+                 Yii::$app->mailer->compose()
+                 ->setFrom("bahromislomov3376@gmail.com")
+                 ->setTo('zarmedsayt@gmail.com')
+                 ->setSubject("Sizga xabar yuborildi")
+                 ->setHtmlBody("
+                 <b>Name: $model->name<br><br>
+                 Tel: $model->phone<br><br>
+                 Email: $model->email<br><br>
+                 Xabar: $model->message<b>
+                 ")
+                 ->send();
 
 
             } else {
