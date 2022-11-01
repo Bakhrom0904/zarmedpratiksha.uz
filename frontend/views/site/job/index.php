@@ -41,6 +41,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 
                                             <div>
                                                 <a href="<?= $job->link ?>" target="_blank" class="btn-sm bg-blue btn"><?= Lx::t('frontend', 'Apply Now') ?></a>
                                             </div>
+                                        </li>    
                                     </ul>
                                 </div>
                             </div>

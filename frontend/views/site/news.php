@@ -28,7 +28,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                         </div>
                         <div class="article-content">
                             <div class="artl-detail">
-                                <h4><a href="/detail?id=<?=$new->id;?>"><?=$new->$title;?></a></h4>
+                                <h4 style="text-transform:uppercase;"><a href="/detail?id=<?=$new->id;?>"><?=$new->$title;?></a></h4>
                                 <p><?=$new->$short;?></p>
                             </div>
                         </div>
