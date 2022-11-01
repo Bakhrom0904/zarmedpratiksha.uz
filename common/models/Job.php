@@ -74,10 +74,11 @@ class Job extends \yii\db\ActiveRecord
 
     public function getTrimDescription(){
         $lang = \Yii::$app->language;
-        return substr($this->{"description_$lang"}, 0, 200) . '...';
+        return $this->{"description_$lang"};
     }
 
     public function getPublishedDate(){
-        return date("F j, Y, G:i", strtotime($this->published_at));
+        
+        return date("d-m-Y", strtotime($this->published_at));
     }
 }
