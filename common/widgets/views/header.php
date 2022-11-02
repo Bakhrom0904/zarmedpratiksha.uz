@@ -8,14 +8,12 @@ use yii\helpers\Url;
     <div class="topbar-wrap bg-dblue">
         <div class="container container-custom">
             <div class="top-info d-flex justify-content-between align-items-center">
-                <ul class="t-address">
+                <ul class="t-addres">
                     <li class="pr-2"><i class="far fa-clock"></i> <?= Lx::t('frontend', 'Open Hours: 24/7') ?></li>
-<!--                    <li class="pr-2"><i class="--><?//= $social['phone']['icon'] ?? '' ?><!--"></i>-->
                     <li><span style="color: white">UZ</span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
-                    <li><span style="color: white">TJ</span>&nbsp; <a
-                                href="mailto:<?= $social['email']['value'] ?? '' ?>" class="text-white __cf_email__"><?= $social['email']['value'] ?? '' ?></a></li>
+                    <li><span style="color: white">TJ</span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone1']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
                 </ul>
-                <ul class="t-social">
+                <!-- <ul class="t-social">
                     <li>
                         <span class="ct-search-link"><a href="#"><i class="fas fa-search"></i></a></span>
                     </li>
@@ -28,7 +26,7 @@ use yii\helpers\Url;
                     <li class="pl-2">
                         <a href="#" title="<?= Lx::t('frontend', 'Patient Login') ?>"><i class="fas fa-user-tie"></i></a>
                     </li>
-                </ul>
+                </ul> -->
                 <ul class="t-social">
                     <?= \lajax\languagepicker\widgets\LanguagePicker::widget([
                         'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_DROPDOWN,
