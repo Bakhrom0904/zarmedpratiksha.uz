@@ -36,13 +36,13 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 
                                 </div>
                                 <div class="article-footer">
                                     <ul>
-                                        <li class="cl-lgrey2 pr-2"><?= $job->publishedDate ?></li>
+                                        <li class="cl-lgrey2 pr-2"><h4><?= $job->publishedDate ?></h4></li>
                                         <li class="cl-lgrey2 pr-2">
                                             <div>
                                                 <a href="https://forms.gle/GbpTiFEmfyvfP98DA" target="_blank" class="btn-sm bg-blue btn"><?= Lx::t('frontend', 'Apply Now') ?></a>
                                             </div>
                                         </li>
-                                        <li class="cl-lgrey2 pr-2">973900104</li>  
+                                      
                                     </ul>
                                 </div>
                             </div>
