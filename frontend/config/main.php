@@ -42,26 +42,26 @@ return [
             ],
         ],
         
-        // 'mailer' => [
-        //     'class' => 'yii\swiftmailer\Mailer',
-        //     'useFileTransport' => false,
-        //     'transport' => [
-        //         'class' => 'Swift_SmtpTransport',
-        //         'encryption' => 'tls',
-        //         'host' => 'smtp.gmail.com', 
-        //         'port' => '587',
-        //         'username' => 'bahromislomov3376@gmail.com',
-        //         'password' => 'zaxuhafaxptklyzs',
-        //     ],
-        // ],
-
         'mailer' => [
-            'class' => 'yii\symfonymailer\Mailer',
+            'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => false,
             'transport' => [
-                'dsn' => 'smtp://bahromislomov3376@gmail.com:zaxuhafaxptklyzs@smtp.gmail.com:465',
+                'class' => 'Swift_SmtpTransport',
+                'encryption' => 'tls',
+                'host' => 'smtp.gmail.com', 
+                'port' => '587',
+                'username' => 'bahromislomov3376@gmail.com',
+                'password' => 'zaxuhafaxptklyzs',
             ],
         ],
+
+        // 'mailer' => [
+        //     'class' => 'yii\symfonymailer\Mailer',
+        //     'useFileTransport' => false,
+        //     'transport' => [
+        //         'dsn' => 'smtp://bahromislomov3376@gmail.com:zaxuhafaxptklyzs@smtp.gmail.com:465',
+        //     ],
+        // ],
         
         'request' => [
             'baseUrl' => '',
