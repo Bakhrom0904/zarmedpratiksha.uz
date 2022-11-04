@@ -15,40 +15,21 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'O
     <section class="doc-profile bg-sfgrey-3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-5 col-md-12">
                     <div class="doctor-img bg-white text-center p-4">
                         <img src="<?= $doctor->img ?>" alt="<?= $doctor->fullname ?>"/>
                         <h3 class="text-capitalize"><?= $doctor->fullname ?></h3>
                         <p class="cl-green"><?= $doctor->department->name ?></p>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-7 col-md-12">
                     <div class="doctor-details bg-white p-4">
-                        <div class="doc-detail-top mb-3">
-                            <h3 class="text-capitalize"><?= $doctor->fullname ?></h3>
-                            <h6 class="cl-green"><?= $doctor->department->name ?></h6>
-                            <ul class="social-links-nl mb-0">
-                                <li>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                </li>
-                            </ul>
-                            <ul class="ratings mb-0">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
+                    <div class="appoint-form bg-white">
+                        <h3><?= Lx::t('frontend', 'Get Appointment') ?></h3>
+                        <p class="mb-3"><?= Lx::t('frontend', 'Get an online appointment to this doctor.') ?></p>
+                        <a href="<?= Url::to('appointment') ?>"
+                           class="btn bg-blue w-100"><?= Lx::t('frontend', 'Book Appointment') ?> </a>
+                    </div>
                         <div class="doc-detail-mid bg-sfgrey-2 border border-light-c1 p-4 mb-3">
                             <div class="d-flex align-items-center border-bt-dash border-light-c pb-2 mb-2">
                                 <div class="w-25">
@@ -126,12 +107,7 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'O
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="appoint-form bg-white">
-                        <h3><?= Lx::t('frontend', 'Get Appointment') ?></h3>
-                        <p class="mb-3"><?= Lx::t('frontend', 'Get an online appointment to this doctor.') ?></p>
-                        <a href="<?= Url::to('appointment') ?>"
-                           class="btn bg-blue w-100"><?= Lx::t('frontend', 'Book Appointment') ?> </a>
-                    </div>
+                    
                     <div class="doc-side-img text-center">
                         <img src="/images/shape/Epidemic-line-01-01.png" class="w-75" alt=""/>
                     </div>
