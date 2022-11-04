@@ -424,18 +424,18 @@ class SiteController extends Controller
                 $b=$model->department->$name ? $model->department->$name : '';
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
 
-                //  Yii::$app->mailer->compose()
-                //  ->setFrom("testzp4566@gmail.com")
-                //  ->setTo('sardor0418@mail.ru')
-                //  ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
-                //  ->setHtmlBody("<b>
-                //  Bemor: $model->fullname<br><br>
-                //  Shifokor: $doc<br><br>
-                //  Bo'lim: $b<br><br>
-                //  Tel: $model->phone<br><br>
-                //  Vaqti: $model->date<br><br>
-                //  </b>")
-                //  ->send();
+                 Yii::$app->mailer->compose()
+                 ->setFrom("testzp4566@gmail.com")
+                 ->setTo('sardor0418@mail.ru')
+                 ->setSubject("Sayt tomonidan shifokor qabuliga yozildi")
+                 ->setHtmlBody("<b>
+                 Bemor: $model->fullname<br><br>
+                 Shifokor: $doc<br><br>
+                 Bo'lim: $b<br><br>
+                 Tel: $model->phone<br><br>
+                 Vaqti: $model->date<br><br>
+                 </b>")
+                 ->send();
 
                 
             } else {
