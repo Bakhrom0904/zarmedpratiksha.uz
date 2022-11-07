@@ -436,7 +436,6 @@ class SiteController extends Controller
                  Vaqti: $model->date<br><br>
                  </b>")
                  ->send();
-
                  
 
                 
