@@ -220,4 +220,680 @@ $_SERVER = [
 [22-Aug-2022 04:27:19 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
 [22-Aug-2022 04:29:32 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/zphospit/public_html/vendor/composer/platform_check.php on line 24
 [25-Aug-2022 18:37:12 Asia/Tashkent] PHP Notice:  file_put_contents(): write of 8192 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
-[25-Aug-2022 18:37:12 Asia/Tashkent] PHP Warning: 
+[25-Aug-2022 18:37:12 Asia/Tashkent] PHP Warning: [20-Sep-2022 03:43:33 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 03:43:33 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 03:43:33 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 03:43:33 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 04:01:38 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 04:01:38 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 04:01:38 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 04:01:38 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:35 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:35 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:35 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:35 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:38 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:38 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:38 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:38 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:40 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:40 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:40 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:40 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:45 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:47 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:47 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:47 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:47 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:50 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:53 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:53 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:53 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:53 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:55 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:56 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:56 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:56 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:56 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:31:59 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:31:59 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:31:59 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:31:59 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:00 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:00 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:00 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:00 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:01 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:04 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:06 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:06 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:06 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:06 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:11 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:11 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:11 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:11 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:16 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:17 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:17 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:17 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:17 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:20 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:20 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:20 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:20 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:21 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:21 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:21 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:21 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:22 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:23 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:23 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:23 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:23 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:24 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:25 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:26 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:27 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:28 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:29 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:30 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:30 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:30 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:30 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:34 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:36 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:36 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:36 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:36 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:37 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:37 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:37 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:37 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:38 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:38 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:38 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:38 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:39 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:39 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:39 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:39 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:42 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:42 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:42 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:42 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:43 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:43 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:43 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:43 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:44 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:46 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:46 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:46 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:46 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:48 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:49 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:49 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:49 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:49 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:57 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:57 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:57 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:57 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:58 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:58 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:58 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:58 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:32:59 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:32:59 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:32:59 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:32:59 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:33:00 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:33:00 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:33:00 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:33:00 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:33:04 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:33:04 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:33:04 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:33:04 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:33:10 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:33:10 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:33:10 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:33:10 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 05:33:17 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 05:33:17 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 05:33:17 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 05:33:17 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:12 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:12 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:12 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:12 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:13 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:13 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:13 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:13 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:14 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:14 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:14 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:14 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:16 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:16 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:16 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:16 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:17 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:18 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:18 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:18 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:18 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:19 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:20 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:24 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:24 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:24 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:24 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:25 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:25 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:25 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:25 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:26 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:27 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:27 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:27 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:27 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:28 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:28 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:28 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:28 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:29 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:30 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:31 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:32 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:33 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:34 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:35 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:36 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:36 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:36 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:36 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:37 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:37 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:37 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:37 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:40 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:41 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:41 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:41 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:41 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:43 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:43 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:43 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:43 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:44 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:44 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:44 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:44 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:45 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:46 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:47 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:48 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:49 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:50 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:50 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:50 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:50 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[20-Sep-2022 06:10:51 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[20-Sep-2022 06:10:51 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[20-Sep-2022 06:10:51 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[20-Sep-2022 06:10:51 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[21-Sep-2022 04:20:04 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[21-Sep-2022 04:20:04 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[21-Sep-2022 04:20:04 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[21-Sep-2022 04:20:04 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[21-Sep-2022 15:04:35 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[21-Sep-2022 15:04:35 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[21-Sep-2022 15:04:35 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[21-Sep-2022 15:04:35 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[21-Sep-2022 17:20:24 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[21-Sep-2022 17:20:24 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[21-Sep-2022 17:20:24 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[21-Sep-2022 17:20:24 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:48:46 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:48:46 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:48:46 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:48:46 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:48:51 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:48:51 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:48:51 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:48:51 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:48:56 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:48:56 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:48:56 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:48:56 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:49:00 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:49:00 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:49:00 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:49:00 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:49:03 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:49:03 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:49:03 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:49:03 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:49:06 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:49:06 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:49:06 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:49:06 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[22-Sep-2022 02:49:10 Asia/Tashkent] PHP Warning:  fgets() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 142
+[22-Sep-2022 02:49:10 Asia/Tashkent] PHP Warning:  feof() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 145
+[22-Sep-2022 02:49:10 Asia/Tashkent] PHP Warning:  ftruncate() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 155
+[22-Sep-2022 02:49:10 Asia/Tashkent] PHP Warning:  rewind() expects parameter 1 to be resource, null given in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 156
+[24-Oct-2022 17:41:38 Asia/Tashkent] An Error occurred while handling another error:
+ParseError: syntax error, unexpected ';' in /home/zphospit/public_html/frontend/controllers/SiteController.php:419
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/zphospit/public_html/vendor/yiisoft/yii2/base/Module.php(661): class_exists('frontend\\contro...')
+#3 /home/zphospit/public_html/vendor/yiisoft/yii2/base/Module.php(620): yii\base\Module->createControllerByID('site')
+#4 /home/zphospit/public_html/vendor/yiisoft/yii2/base/Module.php(546): yii\base\Module->createController('error')
+#5 /home/zphospit/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#6 /home/zphospit/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/.well-known/traffic-advice". in /home/zphospit/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/zphospit/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/.well-know...', Array)
+#1 /home/zphospit/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/zphospit/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/zphospit/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/zphospit/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'zphospitals.uz',
+    'HTTP_USER_AGENT' => 'Chrome Privacy Preserving Prefetch Proxy',
+    'HTTP_X_FORWARDED_HOST' => 'zphospitals.uz',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_SERVER' => 'zphospitals.uz',
+    'HTTP_X_REAL_IP' => '::ffff:66.249.81.228',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'Y1aIApae2Qj56U9XCghzuAAAA9A',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'Y1aIApae2Qj56U9XCghzuAAAA9A',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Y1aIApae2Qj56U9XCghzuAAAA9A',
+    'HTTPS' => 'on',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'zphospitals.uz',
+    'SERVER_ADDR' => '83.69.139.168',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '66.249.81.228',
+    'DOCUMENT_ROOT' => '/home/zphospit/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/zphospit/public_html',
+    'SERVER_ADMIN' => 'webmaster@zphospitals.uz',
+    'SCRIPT_FILENAME' => '/home/zphospit/public_html/frontend/web/index.php',
+    'REMOTE_PORT' => '44522',
+    'REDIRECT_URL' => '/frontend/web/.well-known/traffic-advice',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/.well-known/traffic-advice',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1666615298.069467,
+    'REQUEST_TIME' => 1666615298,
+    'DB_HOST' => 'localhost',
+    'DB_NAME' => 'zphospit_dev',
+    'DB_USER' => 'zphospit_dev',
+    'DB_PASS' => '(F7]Uwx?^DWz',
+]
+[01-Nov-2022 10:23:27 Asia/Tashkent] PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php on line 433. in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/zphospit/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/zphospit/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(323): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#4 {main}
+  thrown in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php on line 368
+[01-Nov-2022 10:23:43 Asia/Tashkent] PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php on line 433. in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/zphospit/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/zphospit/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(323): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#4 {main}
+  thrown in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php on line 368
+[02-Nov-2022 04:49:52 UTC] PHP Notice:  file_put_contents(): Write of 200082 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:52 UTC] PHP Notice:  file_put_contents(): Write of 201004 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:59 UTC] PHP Notice:  file_put_contents(): Write of 140933 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:59 UTC] PHP Notice:  file_put_contents(): Write of 141887 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:59 UTC] PHP Notice:  file_put_contents(): Write of 140843 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:59 UTC] PHP Notice:  file_put_contents(): Write of 141798 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:49:59 UTC] PHP Notice:  file_put_contents(): Write of 140358 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:50:17 UTC] PHP Notice:  file_put_contents(): Write of 140344 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:50:17 UTC] PHP Notice:  file_put_contents(): Write of 141298 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:50:17 UTC] PHP Notice:  file_put_contents(): Write of 140853 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:50:17 UTC] PHP Notice:  file_put_contents(): Write of 141807 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:50:17 UTC] PHP Notice:  file_put_contents(): Write of 140926 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:52:32 UTC] PHP Notice:  file_put_contents(): Write of 98017 bytes failed with errno=122 Disk quota exceeded in /home/zphospit/public_html/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 73
+[02-Nov-2022 04:52:32 UTC] PHP Warning:  file_put_contents(): Only 40960 of 138977 bytes written, possib

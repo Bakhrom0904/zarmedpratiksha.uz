@@ -1,6 +1,12 @@
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-SSL} !on
+    RewriteCond %{HTTP_HOST} ^zphospitals\.uz$ [OR]
+    RewriteCond %{HTTP_HOST} ^www\.zphospitals\.uz$
+    RewriteRule ^/?$ "https\:\/\/zphospitals\.uz\/" [R=301,L]
+
 </IfModule>
  
 <IfModule mod_rewrite.c>
@@ -15,8 +21,8 @@
     RewriteCond %{REQUEST_URI} !^/backend/web/(assets|js|css|vendors|img|fonts)/
     RewriteCond %{REQUEST_URI} ^/(admin)
     RewriteRule ^.*$ backend/web/index.php [L]
-    RewriteCond %{REQUEST_URI} ^/(assets|css|js|images|vendors|img|fonts)
 
+    RewriteCond %{REQUEST_URI} ^/(assets|css|js|images|vendors|img|fonts)
     RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
     RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
     RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
@@ -32,6 +38,8 @@
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php71” package as the default “PHP” programming language.
 <IfModule mime_module>
-#  AddHandler application/x-httpd-ea-php71___lsphp .php .php7 .phtml
+  AddHandler application/x-httpd-ea-php71___lsphp .php .php7 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+
