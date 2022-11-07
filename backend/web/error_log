@@ -160,3 +160,24 @@ Stack trace:
 #3 [internal function]: yii\base\ErrorHandler->handleFatalError()
 #4 {main}
   thrown in /home/zphospit/public_html/vendor/yiisoft/yii2/web/Response.php on line 368
+[04-Nov-2022 12:01:23 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:05:18 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:05:32 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:05:53 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:07:21 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:07:31 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:07:33 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:07:36 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:38 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:41 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:46 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:49 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:54 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:56 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:08:57 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:15:45 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:15:51 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:15:53 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:15:59 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:16:01 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[04-Nov-2022 12:16:03 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
