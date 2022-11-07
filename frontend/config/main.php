@@ -55,6 +55,13 @@ return [
             ],
         ],
 
+        // 'mailer' => [
+        //     'class' => 'yii\symfonymailer\Mailer',
+        //     'useFileTransport' => false,
+        //     'transport' => [
+        //         'dsn' => 'smtp://bahromislomov3376@gmail.com:zaxuhafaxptklyzs@smtp.gmail.com:465',
+        //     ],
+        // ],
         
         'request' => [
             'baseUrl' => '',
