@@ -31,7 +31,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 
                                         <h4>
                                             <?= Html::a($job->title, ['job-info', 'id' => $job->id]) ?>
                                         </h4>
-                                        <p><?= $job->trimDescription ?><h4 style="color: #283779;"><?=Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 'To make an appointment for an interview and for questions, call');?>:<br>+998 97 390 01 04</h4></p>
+                                        <p><?= $job->trimDescription ?><h4 style="color: #283779;"><?=Yii::t('frontend', 'To make an appointment for an interview and for questions, call');?>:<br>+998 97 390 01 04</h4></p>
                                     </div>
                                 </div>
                                 <div class="article-footer">
