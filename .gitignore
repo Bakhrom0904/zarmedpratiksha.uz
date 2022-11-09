@@ -39,3 +39,12 @@ phpunit.phar
 
 # ignore generated files
 /frontend/web/index.php
+
+# .htaccess
+.htaccess
+
+#images
+
+/frontend/web/uploads
+
+

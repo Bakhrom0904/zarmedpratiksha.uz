@@ -70,11 +70,11 @@ use yii\helpers\Url;
     </div>
     <div class="bg-orange p-4 row justify-content-end m-0">
         <div class="col-md-3 text-white small">
-            <span>
+            <!-- <span>
                 <?= Lx::t('frontend', 'Powered by') ?>:
             </span>
             <a href="https://t.me/Bahrom_Islomov">
-                <i class="fa fa-cloud-bolt"></i> Telegram</a>
+                <i class="fa fa-cloud-bolt"></i> Telegram</a> -->
         </div>
     </div>
 </footer>
