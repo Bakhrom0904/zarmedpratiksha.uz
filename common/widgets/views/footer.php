@@ -73,8 +73,8 @@ use yii\helpers\Url;
             <span>
                 <?= Lx::t('frontend', 'Powered by') ?>:
             </span>
-            <a href="https://nimbus.uz">
-                <i class="fa fa-cloud-bolt"></i> Nimbus</a>
+            <a href="https://t.me/Bahrom_Islomov">
+                <i class="fa fa-cloud-bolt"></i> Telegram</a>
         </div>
     </div>
 </footer>

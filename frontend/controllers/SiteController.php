@@ -437,9 +437,6 @@ class SiteController extends Controller
                  </b>")
                  ->send();
 
-                //  test uchun commit
-                //qushimcha commit 
-
                 
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');

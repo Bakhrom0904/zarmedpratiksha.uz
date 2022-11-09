@@ -1,5 +1,6 @@
 <?php
 return [
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -60,5 +61,20 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+
+        // 'mailerGmail' => [
+		// 	'class' => 'yii\swiftmailer\Mailer',
+		// 	'viewPath' => '@common/mail',
+		// 	'useFileTransport' => false,
+
+		// 	'transport' => [
+		// 		'class' => 'Swift_SmtpTransport',
+		// 		'host' => 'smtp.gmail.com',
+		// 		'username' => 'bahromislomov3376@gmail.com',
+		// 		'password' => 'rpvdtjnwdftqszjz',
+		// 		'port' => '587',
+		// 		'encryption' => 'tls',
+		// 	],
+		// ],
     ],
 ];
