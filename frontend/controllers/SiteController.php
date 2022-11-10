@@ -613,5 +613,10 @@ class SiteController extends Controller
 
         return [];
     }
+
+    public function actionCheckup()
+    {
+        return $this->render("checkup");
+    }
     
 }
