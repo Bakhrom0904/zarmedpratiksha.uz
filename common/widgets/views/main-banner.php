@@ -9,7 +9,7 @@ use yii\helpers\Url;
         <div class="slider banner-slider">
             <?php foreach ($items as $item) { ?>
                 <div class="h2-slider-list" style="min-height: 800px">
-                    <div style="background-image: url(<?= $item->img ?>);"></div>
+                    <div class="main-slide-image" style="background-image: url(<?= $item->img ?>);"></div>
                     <div class="container">
                         <div class="slide-contain">
                             <h1 class="cl-white mt-2 wow fadeInDown"><?= $item->title ?></h1>
