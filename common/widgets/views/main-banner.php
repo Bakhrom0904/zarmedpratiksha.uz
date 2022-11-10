@@ -8,7 +8,7 @@ use yii\helpers\Url;
     <div class="banner-content">
         <div class="slider banner-slider">
             <?php foreach ($items as $item) { ?>
-                <div class="h2-slider-list" style="min-height: 800px">
+                <div class="h2-slider-list">
                     <!-- <div class="main-slide-image" style="background-image: url(<?= $item->img ?>);"></div> -->
                     <div class="container" style="background-image: url(<?= $item->img ?>);">
                         <div class="slide-contain">
