@@ -428,6 +428,12 @@ section {
     width: 100%
 }
 
+@media (max-width:576px) {
+   section {
+    padding-top: 0px;
+   }
+}
+
 .sc-title-two, .sc-title-two-white {
     position: relative;
     width: 50%;
@@ -2794,8 +2800,8 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .banner-slider .main-slide-image {
     position: absolute;
-    width: 50%;
- 
+    width: 100%;
+    height: 100%;
     left: 0;
     top: 0;
     background-size: cover;
@@ -2804,6 +2810,26 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
     transform-origin: 0;
     -webkit-animation: kbrns_zoomOutIn 35s linear 0s infinite alternate;
     animation: kbrns_zoomOutIn 35s linear 0s infinite alternate
+}
+
+@media (max-width:576px) {
+     .banner-slider {
+         height:500px;
+     }
+    .banner-slider .main-slide-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: contain;
+     background-repeat: no-repeat;
+    background-position:left center;
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-animation: kbrns_zoomOutIn 35s linear 0s infinite alternate;
+    animation: kbrns_zoomOutIn 35s linear 0s infinite alternate
+}
 }
 
 .how-it-works {
