@@ -2826,6 +2826,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
      background-repeat: no-repeat;
     background-position:left center;
     -webkit-transform-origin: 0;
+    margin-top: 15%;
     transform-origin: 0;
     -webkit-animation: kbrns_zoomOutIn 35s linear 0s infinite alternate;
     animation: kbrns_zoomOutIn 35s linear 0s infinite alternate
