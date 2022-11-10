@@ -1,7 +1,6 @@
 <section class="service" style="margin-top:130px;background-color:#F19035">
         <div class="container">
             <div class="sc-title-two text-center">
-                <!-- <h4 class="cl-green">Best Practice Care!</h4> -->
                 <h2 style="color:#283779">Семейная программа Check-up  -30 %</h2>
             </div>
             <!-- <div class="row">
@@ -57,26 +56,26 @@
             </div> -->
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                <h3 style="color:#283779">ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
-                                <h4>Концультации</h4>
-                                <h4 style="color:#F19035">Терапевт</h4>
-                                <h4 style="color:#F19035">Гинеколог</h4>             
+                <h3>ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
+                                <h4 style="color:#283779">Концультации</h4>
+                                <h4><i class="fas fa-plus-circle"></i> &nbsp; Терапевт</h4>
+                                <h4><i class="fas fa-plus-circle"></i> &nbsp; Гинеколог</h4>             
                 </div>
                 <div class="col-lg-3 col-md-6">
-                <h3 style="color:#283779">ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
-                                <h4>Концультации</h4>
-                                <h4 style="color:#F19035">Терапевт</h4>
-                                <h4 style="color:#F19035">Гинеколог</h4>             
+                <h3 >ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
+                                <h4 style="color:#283779">Концультации</h4>
+                                <h4><i class="fas fa-plus-circle"></i> ЭХО КГ</h4>
+                                <h4>Гинеколог</h4>             
                 </div>
                 <div class="col-lg-3 col-md-6">
-                <h3 style="color:#283779">ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
-                                <h4>Концультации</h4>
-                                <h4 style="color:#F19035">Терапевт</h4>
-                                <h4 style="color:#F19035">Гинеколог</h4>             
+                <h3 >ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
+                                <h4 style="color:#283779">Концультации</h4>
+                                <h4>Терапевт</h4>
+                                <h4>Гинеколог</h4>             
                 </div>
                 <div class="col-lg-3 col-md-6">
-                <h3 style="color:#283779">ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
-                                <h4>Концультации</h4>
+                <h3 >ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
+                                <h4 style="color:#283779">Концультации</h4>
                                 <h4 style="color:#F19035">Терапевт</h4>
                                 <h4 style="color:#F19035">Гинеколог</h4>             
                 </div>
