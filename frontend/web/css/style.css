@@ -2794,16 +2794,16 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .banner-slider .main-slide-image {
     position: absolute;
-    width: 50%;
+    width: 90%;
  
     left: 0;
     top: 0;
     background-size: cover;
     background-position: center;
-    -webkit-transform-origin: 0;
+    /* -webkit-transform-origin: 0;
     transform-origin: 0;
     -webkit-animation: kbrns_zoomOutIn 35s linear 0s infinite alternate;
-    animation: kbrns_zoomOutIn 35s linear 0s infinite alternate
+    animation: kbrns_zoomOutIn 35s linear 0s infinite alternate */
 }
 
 .how-it-works {
