@@ -5,7 +5,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 <section class="service" style="margin-top:130px;background-color:#F19035">
         <div class="container">
             <div class="sc-title-two text-center">
-                <h2 style="color:#283779">Семейная программа Check-up  -30 %</h2>
+                <h2 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM -30 %') ?></h2>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-6">
