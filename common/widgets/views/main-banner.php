@@ -15,7 +15,7 @@ use yii\helpers\Url;
                             <h1 class="cl-white mt-2 wow fadeInDown"><?= $item->title ?></h1>
                             <p><?= $item->description ?></p>
                             <div class="slide-btn mt-4">
-                                <a href="<?=Url::to(['contact'])?>" class="btn bg-white text-blue"><?= Lx::t('frontend', 'Get Started') ?></a>
+                                <a href="<?=Url::to(['checkup'])?>" class="btn bg-white text-blue"><?= Lx::t('frontend', 'Get Started') ?></a>
                             </div>
                         </div>
                     </div>
