@@ -11,7 +11,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                 <div class="col-lg-3 col-md-6 col-6">
                 <h3>ПРОГРАММА ДЛЯ ЖЕНЩИН</h3>
                                 <h4 style="color:#283779">Конcультации</h4>
-                                <h4><?= Lx::t('frontend', 'Therapist') ?></h4>
+                                <h4>Терапия</h4>
                                 <h4>Гинеколог</h4>             
                 </div>
                 <div class="col-lg-3 col-md-6 col-6">
