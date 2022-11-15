@@ -5,13 +5,13 @@ use lajax\translatemanager\helpers\Language as Lx;
 <section class="service" style="margin-top:130px;background-color:#F6F8FA">
         <div class="container">
             <div class="sc-title-two text-center">
-                <h1 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM') ?><span style="color:#F19035"> -30 %</span></h1>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 600;font-size:50px"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM') ?><span style="color:#F19035"> -30 %</span></p>
             </div>
             <div class="row">
                     <!-- WOMEN -->
 
                 <div class="col-lg-3 col-md-6 col-6">
-                <h3 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'PROGRAM FOR WOMEN') ?></h3>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR WOMEN') ?></p>
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Physician') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Gynecologist') ?></h4>
@@ -50,7 +50,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <!-- MEN -->
 
                 <div class="col-lg-3 col-md-6 col-6">
-                <h3 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'PROGRAM FOR MEN') ?></h3>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR MEN') ?></p>
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Therapist') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Urologist') ?></h4>
@@ -82,7 +82,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                  <!-- WOMEN -->
 
                  <div class="col-lg-3 col-md-6 col-6">
-                <h3 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'PROGRAM FOR WOMEN') ?></h3>
+                 <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR WOMEN') ?></p>
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Physician') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Gynecologist') ?></h4>
@@ -121,7 +121,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <!-- MEN -->
 
                 <div class="col-lg-3 col-md-6 col-6">
-                <h3 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'PROGRAM FOR MEN') ?></h3>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR MEN') ?></p>
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Therapist') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Urologist') ?></h4>
