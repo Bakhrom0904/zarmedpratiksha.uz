@@ -104,34 +104,37 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">584</span>  410 <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
 
-                    <!-- MEN -->
+                    <!-- Standart -->
 
                 <div class="col-lg-3 col-md-6 col-6">
-                <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR MEN') ?></p>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'STANDARD DIAGNOSTIC PROGRAM') ?></p>
+
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Therapist') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Urologist') ?></h4>
 
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Cardiologic investigations') ?></h4>
+                                <h4 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'ECHO CG') ?></h4>
                                 <h4 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'ECG') ?></h4>
 
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Radiologic examination') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Chest X-ray') ?></h4>
 
-                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Diagnostic examination') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Colonoscopy (over 55 years old )') ?></h4>
-
-                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Ultrasound examinations') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the abdomen') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the prostate gland') ?></h4>
+                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Ultrasound examination') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound of the abdominal cavity)') ?></h4>
 
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Laboratory tests') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Total cholesterol') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Total bilirubin') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Complete blood test urine analysis') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Complete blood count') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Triglycerides') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Urea') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Creatinine') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis C test (express method)') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis B test ( express method )') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'ALT + AST') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Total bilirubin') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum nitrogen') ?></h4>
 
 
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">591</span>  413 <?= Lx::t('frontend', 'sum') ?></h3>                     
