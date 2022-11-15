@@ -8,6 +8,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                 <p style="color:#283779;text-transform:uppercase;font-weight: 600;font-size:45px"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM') ?><span style="color:#F19035"> -30 %</span></p>
             </div>
             <div class="row">
+                
                     <!-- WOMEN -->
 
                 <div class="col-lg-3 col-md-6 col-6">
@@ -46,6 +47,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">894</span>  625 <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
+                  
 
                     <!-- MEN -->
 
@@ -80,33 +82,10 @@ use lajax\translatemanager\helpers\Language as Lx;
 
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">965</span>  675 <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
-                 <!-- Children -->
+                
+                 <!-- Standart -->
 
                  <div class="col-lg-3 col-md-6 col-6">
-                 <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR CHILDREN') ?></p>
-                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Pediatrician') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Pediatric neurologist') ?></h4>
-                                <h4 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'ENT') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Orthopedist') ?></h4>
-
-                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Laboratory tests') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum calcium') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Complete blood test') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Stool test R/E') ?></h4>
-
-                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Ultrasound examinations') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the abdomen') ?></h4>
-
-
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">584</span>  410 <?= Lx::t('frontend', 'sum') ?></h3>                     
-                </div>
-
-                    <!-- Standart -->
-
-                <div class="col-lg-3 col-md-6 col-6">
                 <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'STANDARD DIAGNOSTIC PROGRAM') ?></p>
 
                                 <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
@@ -131,7 +110,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Creatinine') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis C test (express method)') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis B test ( express method )') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'ALT + AST') ?></h4>
+                                <h4 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'ALT + AST') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Total bilirubin') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum nitrogen') ?></h4>
@@ -139,6 +118,31 @@ use lajax\translatemanager\helpers\Language as Lx;
 
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">591</span>  413 <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
+
+                <!-- Children -->
+
+                 <div class="col-lg-3 col-md-6 col-6">
+                 <p style="color:#283779;text-transform:uppercase;font-weight: 550;font-size:23px"><?= Lx::t('frontend', 'PROGRAM FOR CHILDREN') ?></p>
+                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Consultation') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Pediatrician') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Pediatric neurologist') ?></h4>
+                                <h4 style="color:#283779;text-transform:uppercase"><?= Lx::t('frontend', 'ENT') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Orthopedist') ?></h4>
+
+                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Laboratory tests') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum calcium') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Complete blood test') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Stool test R/E') ?></h4>
+
+                                <h4 style="color:#F19035"><?= Lx::t('frontend', 'Ultrasound examinations') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the abdomen') ?></h4>
+
+
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">584</span>  410 <?= Lx::t('frontend', 'sum') ?></h3>                     
+                </div>
+   
             </div>
         </div>
     </section>
