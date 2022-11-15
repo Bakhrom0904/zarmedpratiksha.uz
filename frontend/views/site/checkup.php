@@ -5,7 +5,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 <section class="service" style="margin-top:130px;background-color:#F6F8FA">
         <div class="container">
             <div class="sc-title-two text-center">
-                <p style="color:#283779;text-transform:uppercase;font-weight: 600;font-size:50px"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM') ?><span style="color:#F19035"> -30 %</span></p>
+                <p style="color:#283779;text-transform:uppercase;font-weight: 600;font-size:45px"><?= Lx::t('frontend', 'CHECK-UP FAMILY PROGRAM') ?><span style="color:#F19035"> -30 %</span></p>
             </div>
             <div class="row">
                     <!-- WOMEN -->
