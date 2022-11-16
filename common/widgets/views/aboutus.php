@@ -25,7 +25,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                         <li class="w-50"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Favorable Packages') ?></li>
                         <li class="w-50 border-lg-0"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Online appointment for a consultation') ?>
                         </li>
-                        <li class="w-50 border-lg-0"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'And More...') ?>
+                        <li class="w-50 border-lg-0"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Quality services') ?>
                         </li>
                     </ul>
                 </div>

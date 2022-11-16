@@ -13,13 +13,13 @@ use yii\helpers\Url;
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['department-services?id=1']) ?>">
                     <div class="service-list bg-white bx-shadow">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-brain"></i>
                         </div>
                         <div class="sv-title">
-                            <h3><?= Lx::t('frontend', 'Neurology') ?></h3>
+                            <h3><?= Lx::t('frontend', 'Neurosurgery') ?></h3>
                         </div>
                         <p class="cl-grey">
                         </p>
@@ -27,13 +27,13 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['department-services?id=36']) ?>">
                     <div class="service-list bg-white bx-shadow mb-3">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="sv-title">
-                            <h3><?= Lx::t('frontend', 'Cardiology') ?></h3>
+                            <h3><?= Lx::t('frontend', 'Cardiosurgery') ?></h3>
                         </div>
                         <p class="cl-grey">
                         </p>
