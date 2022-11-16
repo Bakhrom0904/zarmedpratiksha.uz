@@ -45,7 +45,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glycated hemoglobin') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">894</span>  625 <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">894 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">625 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
                   
 
@@ -80,7 +81,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">965</span>  675 <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">965 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">675 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
                 
                  <!-- Standart -->
@@ -116,7 +118,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum nitrogen') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">591</span>  413 <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">591 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">413 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
 
                 <!-- Children -->
@@ -140,7 +143,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the abdomen') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">584</span>  410 <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">584 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">410 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
    
             </div>
