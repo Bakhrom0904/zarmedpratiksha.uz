@@ -24,7 +24,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                     <div class="sv-detail-content about-detail mb-3">
                         <h2><?= $department->name ?></h2>
                         <img class="w-100" src="<?= $department->img ?>">
-                        <p class="text-justify py-3">
+                        <p class="py-3">
                             <?= $department->description ?>
                         </p>
                     </div>
