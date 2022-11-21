@@ -42,18 +42,18 @@ return [
             ],
         ],
         
-        // 'mailer' => [
-        //     'class' => 'yii\swiftmailer\Mailer',
-        //     'useFileTransport' => false,
-        //     'transport' => [
-        //         'class' => 'Swift_SmtpTransport',
-        //         'encryption' => 'tls',
-        //         'host' => 'smtp.gmail.com', 
-        //         'port' => '587',
-        //         'username' => 'bahromislomov3376@gmail.com',
-        //         'password' => 'zaxuhafaxptklyzs',
-        //     ],
-        // ],
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
+            'useFileTransport' => false,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'encryption' => 'tls',
+                'host' => 'smtp.gmail.com', 
+                'port' => '587',
+                'username' => 'bahromislomov3376@gmail.com',
+                'password' => 'zaxuhafaxptklyzs',
+            ],
+        ],
 
         
         'request' => [

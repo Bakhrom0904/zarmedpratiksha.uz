@@ -38,7 +38,7 @@ use yii\helpers\Url;
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 ps-lg-4 pt-md-3 pt-lg-0">
+                <!-- <div class="col-lg-2 col-md-6 ps-lg-4 pt-md-3 pt-lg-0">
                     <div class="ft-lists">
                         <h3 class="cl-white"><?= Lx::t('frontend', 'Useful Links') ?></h3>
                         <ul class="d-flex flex-column">
@@ -52,7 +52,7 @@ use yii\helpers\Url;
                             } ?>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-3 col-md-6 ps-lg-4 pt-md-3 pt-lg-0">
                     <div class="ft-lists">
                         <h3 class="cl-white"><?= Lx::t('frontend', 'Our Departments') ?></h3>

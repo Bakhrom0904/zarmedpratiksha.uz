@@ -12,7 +12,7 @@ use yii\helpers\Url;
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['about']) ?>">
+                <a href="<?= Url::to(['doctors']) ?>">
                     <div class="pcs-list p-4 bg-white">
                         <i class="far fa-file-alt"></i>
                         <h4><?= Lx::t('frontend', 'Experience Doctors') ?></h4>
@@ -20,7 +20,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['about']) ?>">
+                <a href="<?= Url::to(['doctors']) ?>">
                     <div class="pcs-list p-4 bg-white">
                         <i class="fas fa-laptop-medical"></i>
                         <h4><?= Lx::t('frontend', '+45 Yrs Experience') ?></h4>
@@ -28,7 +28,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['about']) ?>">
+                <a href="<?= Url::to(['departments']) ?>">
                     <div class="pcs-list p-4 bg-white">
                         <i class="fas fa-star-of-life"></i>
                         <h4><?= Lx::t('frontend', 'Standards Treatments') ?></h4>
@@ -36,7 +36,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <a href="<?= Url::to(['about']) ?>">
+                <a href="<?= Url::to(['departments']) ?>">
                     <div class="pcs-list p-4 bg-white mb-0">
                         <i class="fas fa-user-md"></i>
                         <h4><?= Lx::t('frontend', 'Best Departments') ?></h4>
