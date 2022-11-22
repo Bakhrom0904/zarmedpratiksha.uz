@@ -46,7 +46,7 @@ class Doctor extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['department_id', 'first_name_ru', 'last_name_ru', 'middle_name_ru', 'first_name_uz', 'last_name_uz', 'middle_name_uz', 'first_name_en', 'last_name_en', 'middle_name_en', 'about_uz', 'about_ru', 'about_en', 'img'], 'required'],
+            [['department_id', 'first_name_ru', 'last_name_ru', 'first_name_uz', 'last_name_uz', 'first_name_en', 'last_name_en', 'about_uz', 'about_ru', 'about_en', 'img'], 'required'],
             [['department_id'], 'integer'],
             [['date', 'experience'], 'safe'],
             [['about_uz', 'about_ru', 'about_en'], 'string'],
