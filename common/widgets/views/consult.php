@@ -9,7 +9,7 @@ use yii\helpers\Url;
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-12">
                 <div class="call-contact d-flex align-items-center">
-                    <i class="fas fa-phone-alt display-6 cl-white"></i>
+                    <!-- <i class="fas fa-phone-alt display-6 cl-white"></i> -->
                     <div class="pl-3">
                         <h4 class="cl-white"><?= Lx::t('frontend', 'Doctor\'s consultation') ?></h4>
                         <a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a>
