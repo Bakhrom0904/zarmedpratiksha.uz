@@ -19,7 +19,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 
         <ul class="nav nav-tabs">
             <?php foreach ($tabs as $index => $tab): ?>
                 <li class="nav-item">
-                    <a class="nav-link <?=$index==0?'active':''?>" data-slug="<?= $tab->slug ?>"><?= $tab->title ?></a>
+                    <a class="nav-link <?=$index==0?'active':''?>" data-slug="<?= $tab->slug ?>"><b style="color:#283779;"><?= $tab->title ?></b></a>
                 </li>
             <?php endforeach;  ?>
         </ul>
