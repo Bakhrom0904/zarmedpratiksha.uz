@@ -19,11 +19,11 @@ class AppAsset extends AssetBundle
         'css/dashboard.css',
         'css/custom.css',
         'css/magnify.css',
-        "css/bootstrap.min.css",
-        "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-        "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
-       "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-       "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
+//        "css/bootstrap.min.css",
+//        "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+//        "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
+//       "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+//       "../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
     ];
     public $js = [
         'js/plugin.js',
