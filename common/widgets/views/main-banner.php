@@ -15,7 +15,7 @@ use yii\helpers\Url;
                             <h1 class="cl-white mt-2 wow fadeInDown"style="text-transform:uppercase"><?= $item->title ?><span style="color:#F19035">  -30%</span></h1>
                             <h2 class="cl-white mt-2 wow fadeInDown"><?= $item->description ?></h2>
                             <div class="slide-btn mt-4">
-                                <a href="<?=Url::to(['checkup'])?>" class="btn bg-white text-blue"><?= Lx::t('frontend', 'Learn more') ?></a>
+                                <a href="<?=Url::to(['checkup'])?>" class="btn bg-blue text-white"><?= Lx::t('frontend', 'Learn more') ?></a>
                             </div>
                         </div>
 
