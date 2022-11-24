@@ -181,3 +181,4 @@ Stack trace:
 [04-Nov-2022 12:15:59 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
 [04-Nov-2022 12:16:01 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
 [04-Nov-2022 12:16:03 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
+[09-Nov-2022 18:25:45 UTC] PHP Warning:  Attempt to read property "username" on null in /home/zphospit/public_html/backend/views/layouts/template.php on line 54
