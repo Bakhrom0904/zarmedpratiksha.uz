@@ -1593,7 +1593,9 @@ header #navbar {
 }
 
 .main_header_area {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 10;
     background: 0 0
 }
 
@@ -1720,7 +1722,7 @@ header #navbar {
     color: #06bbcc
 }
 
-.header_menu .navbar.navbar-default .nav.navbar-nav > li:hover {
+.header_menu .navbar.navbar-default .nav.navbar-nav > li:hover:not(:last-child) {
     border-bottom: 2px solid #283779;
     color: #283779
 }
@@ -1946,7 +1948,8 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
     }
 
     .main_header_area .header_menu.fixed-top {
-        position: relative;
+        position: fixed;
+        top: 92px;
         background: 0 0;
         -webkit-box-shadow: none;
         box-shadow: none

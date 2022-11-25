@@ -53,7 +53,7 @@ use yii\helpers\Url;
                     </div>
 
                     <div class="navbar-collapse1" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav" id="responsive-menu">
+                        <ul class="nav navbar-nav align-items-center" id="responsive-menu">
                             <?php foreach($menu as $item) { ?>
                                 <?php if (empty($item['submenu'])) { ?>
                                     <li class="px-3"><a href="<?= Url::to($item['route']) ?>"><?= $item['name'] ?></a></li>
@@ -69,13 +69,13 @@ use yii\helpers\Url;
                                     </li>
                                 <?php } ?>
                             <?php } ?>
+                            <li class="px-3">
+                                <a href="<?= Url::to('appointment') ?>" class="btn bg-blue text-white p-3"><?= Lx::t('frontend', 'Book Appointment') ?></a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="header-btn">
-                        <a href="<?= Url::to('appointment') ?>" class="btn bg-blue"><?= Lx::t('frontend', 'Book Appointment') ?></a>
+                    <div id="slicknav-mobile">
                     </div>
-
-                    <div id="slicknav-mobile"></div>
                 </div>
             </div>
 
