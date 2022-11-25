@@ -14,7 +14,7 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA") . " | " . Lx::t('frontend',
     <section class="service">
         <div class="container">
             <div class="sc-title-two text-center">
-                <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'BETTER OUTPATIENT CARE!') ?></h4>
+                <!-- <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'BETTER OUTPATIENT CARE!') ?></h4> -->
                 <h2><?= Lx::t('frontend', 'Our Departments') ?></h2>
             </div>
             <?php foreach ($branches as $b) { ?>
