@@ -22,9 +22,6 @@ use yii\helpers\Url;
                     </div>
                     <div class="overlay-banner">
                     </div>
-                    <div class="header-btn mt-5 d-block d-lg-none">
-                        <a href="<?= Url::to('appointment') ?>" class="btn bg-blue"><?= Lx::t('frontend', 'Book Appointment') ?></a>
-                    </div>
                 </div>
             <?php } ?>
         </div>
