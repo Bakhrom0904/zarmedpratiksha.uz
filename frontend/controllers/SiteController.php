@@ -379,6 +379,8 @@ class SiteController extends Controller
             if ($model->save()) {
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
 
+                return $this->redirect('/contact');
+
                 //  Yii::$app->mailer->compose()
                 //  ->setFrom("bahromislomov3376@gmail.com")
                 //  ->setTo('zarmedsayt@gmail.com')
@@ -423,6 +425,9 @@ class SiteController extends Controller
                 $doc=$model->doctor->last_name_uz." ".$model->doctor->first_name_uz." ".$model->doctor->middle_name_uz;
                 $b=$model->department->$name ? $model->department->$name : '';
                 \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
+
+                return $this->redirect('/appointment');
+
 
                 //  Yii::$app->mailer->compose()
                 //  ->setFrom("testzp4566@gmail.com")
