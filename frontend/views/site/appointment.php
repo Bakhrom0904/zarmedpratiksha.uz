@@ -18,12 +18,14 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
 ?>
 <?= \dominus77\sweetalert2\Alert::widget(['useSessionFlash' => true]) ?>
 <?= Banner::widget(['title' => $this->title]) ?>
-    <!-- <section class="appointment bg-sfgrey-3">
+
+    <section class="appointment bg-sfgrey-3">
         <div class="container">
             <div class="sc-title-two text-center">
                 <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Book Appointment') ?></h4>
                 <h2><?= Lx::t('frontend', 'Now Book your appointments online') ?></h2>
             </div>
+            
             <div class="row align-items-stretch flex-mxl-column-reverse">
                 <div class="col-lg-6 col-md-12">
                     <div class="appoint-form mb-xs-0">
@@ -70,9 +72,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                 </div>
             </div>
         </div>
-    </section> -->
-
-    
+    </section>
 
     <section class="team">
         <div class="container">
