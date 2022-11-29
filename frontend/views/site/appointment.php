@@ -18,7 +18,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
 ?>
 <?= \dominus77\sweetalert2\Alert::widget(['useSessionFlash' => true]) ?>
 <?= Banner::widget(['title' => $this->title]) ?>
-    <section class="appointment bg-sfgrey-3">
+    <!-- <section class="appointment bg-sfgrey-3">
         <div class="container">
             <div class="sc-title-two text-center">
                 <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Book Appointment') ?></h4>
@@ -70,7 +70,9 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    
 
     <section class="team">
         <div class="container">
@@ -97,7 +99,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
         </div>
     </section>
 
-    <!-- <section class="emergency-call pb-0">
+    <section class="emergency-call pb-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -117,5 +119,5 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 <?= Consult::widget(['social' => $this->params['social']]) ?>

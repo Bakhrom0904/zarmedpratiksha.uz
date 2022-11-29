@@ -623,5 +623,21 @@ class SiteController extends Controller
     {
         return $this->render("checkup");
     }
+
+
+    public function actionOz()
+    {
+        return $this->redirect("/");
+    }
+
+    public function actionEn()
+    {
+        return $this->redirect("/");
+    }
+
+    public function actionRu()
+    {
+        return $this->redirect("/");
+    }
     
 }
