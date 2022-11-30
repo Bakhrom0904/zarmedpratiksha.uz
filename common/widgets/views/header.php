@@ -5,7 +5,7 @@ use yii\helpers\Url;
 
 ?>
 <header class="main_header_area">
-    <div class="topbar-wrap bg-dblue">
+    <div class="topbar-wrap bg-dblue pt-5">
         <div class="container container-custom">
             <div class="top-info d-flex justify-content-between align-items-center">
                 <ul class="t-addres">
