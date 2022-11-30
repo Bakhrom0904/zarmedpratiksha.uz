@@ -639,5 +639,10 @@ class SiteController extends Controller
     {
         return $this->redirect("/");
     }
+
+    public function actionOKlinike()
+    {
+        return $this->redirect("/");
+    }
     
 }
