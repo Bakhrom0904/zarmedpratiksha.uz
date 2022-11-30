@@ -6,9 +6,9 @@ use yii\bootstrap4\Modal;
 use yii\helpers\Html;
 ?>
 
-<div class="container text-right mt-5 position-fixed" style="bottom: 10px; right: 10px;">
+<!-- <div class="container text-right mt-5 position-fixed" style="bottom: 10px; right: 10px;">
     <button id="btn" class="btn btn-sm bg-blue p-3 rounded-circle"><i class="fa fa-phone-volume fa-2x"></i></button>
-</div>
+</div> -->
 
 <?= $content ?>
 
