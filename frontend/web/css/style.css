@@ -1595,7 +1595,7 @@ header #navbar {
 .main_header_area {
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 999;
     background: 0 0
 }
 

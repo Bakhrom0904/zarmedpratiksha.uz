@@ -60,11 +60,11 @@ echo '<div class="text-right">' . Html::submitButton(Lx::t('frontend', 'Send Req
 ActiveForm::end();
 Modal::end();
 
-// $js = <<<JS
-//     setTimeout(function() {
-//         jQuery('#modal-btn').click()
-//     }, 10000);
-// JS;
+$js = <<<JS
+     setTimeout(function() {
+         jQuery('#modal-btn').click()
+     }, 10000);
+ JS;
 
-// $this->registerJs($js, \yii\web\View::POS_READY);
+$this->registerJs($js, \yii\web\View::POS_READY);
 ?>
