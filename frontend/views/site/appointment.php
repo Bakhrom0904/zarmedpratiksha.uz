@@ -21,6 +21,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
 
     <section class="appointment bg-sfgrey-3">
         <div class="container">
+            
             <div class="sc-title-two text-center">
                 <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Book Appointment') ?></h4>
                 <h2><?= Lx::t('frontend', 'Now Book your appointments online') ?></h2>

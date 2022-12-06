@@ -18,7 +18,26 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <?= OnlineHelp::widget(['social' => $this->params['social']])?>
+                    <?= OnlineHelp::widget(['social' => $this->params['social']])?><br>
+                    <iframe width="98%" height="315" src="https://www.youtube.com/embed/3IYMeFYay7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                    <?php
+                        if($department->id==36)
+                        {
+                            
+                          echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/8FZSdRx0zew' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+
+                        }
+                        elseif($department->id==1 || $department->id==42 || $department->id==43)
+                        {
+                            echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/_vrGKpRD6Rs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+
+
+
+                    ?> 
+                   
+             
                 </div>
                 <div class="col-lg-8 col-md-8">
                     <div class="sv-detail-content about-detail mb-3">
