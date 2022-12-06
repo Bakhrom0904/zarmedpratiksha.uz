@@ -3,9 +3,9 @@
     RewriteEngine On
     RewriteCond %{HTTPS} off
     RewriteCond %{HTTP:X-Forwarded-SSL} !on
-    RewriteCond %{HTTP_HOST} ^zphospitals\.uz$ [OR]
-    RewriteCond %{HTTP_HOST} ^www\.zphospitals\.uz$
-    RewriteRule ^/?$ "https\:\/\/zphospitals\.uz\/" [R=301,L]
+    RewriteCond %{HTTP_HOST} ^zarmedpratiksha\.uz$ [OR]
+    RewriteCond %{HTTP_HOST} ^www\.zarmedpratiksha\.uz$
+    RewriteRule ^/?$ "https\:\/\/zarmedpratiksha\.uz\/" [R=301,L]
 
 </IfModule>
  
