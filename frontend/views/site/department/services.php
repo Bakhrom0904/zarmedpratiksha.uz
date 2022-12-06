@@ -22,7 +22,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                     <iframe width="98%" height="315" src="https://www.youtube.com/embed/3IYMeFYay7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
                     <?php
-                        if($department->id==36)
+                        if($department->id==36 || $department->id==7)
                         {
                             
                           echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/8FZSdRx0zew' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
@@ -31,6 +31,30 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         elseif($department->id==1 || $department->id==42 || $department->id==43)
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/_vrGKpRD6Rs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        elseif($department->id==2 || $department->id==28 || $department->id==49)
+                        {
+                            echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/3-7vw5jpYBg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        elseif($department->id==38)
+                        {
+                            echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/MrBUHkb-9vM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        elseif($department->id==39)
+                        {
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/fCifFZh22Jw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        elseif($department->id==40)
+                        {
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/HTZ-pklXxsk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        elseif($department->id==3)
+                        {
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/WuzFmLiax4A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                        }
+                        else
+                        {
+                            echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/Os8_QAPJozU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
 
 
