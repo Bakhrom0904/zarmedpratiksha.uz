@@ -44,7 +44,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/fCifFZh22Jw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==40)
+                        elseif($department->id==40 || $department->id==20)
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/HTZ-pklXxsk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }

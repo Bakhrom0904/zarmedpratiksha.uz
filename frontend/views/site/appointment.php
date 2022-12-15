@@ -28,6 +28,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
             </div>
             
             <div class="row align-items-stretch flex-mxl-column-reverse">
+
                 <div class="col-lg-6 col-md-12">
                     <div class="appoint-form mb-xs-0">
                         <?php Pjax::begin() ?>
@@ -64,6 +65,8 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                         <?php Pjax::end() ?>
                     </div>
                 </div>
+
+                
                 <div class="col-lg-6 col-md-12 ps-lg-5">
                     <div class="sc-title-two sc-border-left sc-border-none appoint-info w-100 mb-xs-0">
                         <i class="fas fa-calendar-check bg-dblue"></i>

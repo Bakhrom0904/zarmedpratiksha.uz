@@ -7,6 +7,7 @@ use common\models\PagesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use Yii;
 
 /**
  * PagesController implements the CRUD actions for Pages model.
