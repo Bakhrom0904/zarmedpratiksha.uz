@@ -48,7 +48,7 @@ use yii\helpers\Url;
             <div class="col-lg-7 col-md-12 p-lg-4">
                 <div class="sc-title-one mb-3">
 <!--                    <h4 class="cl-green">Welcome To Best Medical & Health</h4>-->
-                    <h3 class="cl-green"><?=$new->$title;?></h3>
+                    <h3 class="cl-green" style="text-transform: uppercase;"><?=$new->$title;?></h3>
                     <span><?=$new->$description;?></span>
                 </div>
 <!--                <div class="about-detail">-->
