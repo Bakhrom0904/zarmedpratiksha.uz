@@ -20,11 +20,56 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
             <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'International Patients') ?></h4>
             <h2><?= Lx::t('frontend', 'Useful Information For Our International Patients') ?></h2>
         </div>
-        <div class="blog-wrap mb-xs-3">
+        <div >
             <div class="mb-2">
                 <div class="text-right" id="google_translate_element"></div>
             </div>
-            <?= $page->content ?></div>
+            <!-- <?= $page->content ?> -->
+            <!-- <div class="row">
+                    <img src="https://www.zarmedpratiksha.uz/uploads/images/Rasm.jpg?_t=1671169918" alt="123" width="90%">
+            </div> -->
+
+            <div class="row mt-2">
+                <div class="col-lg-7 col-12">
+                        <img src="https://www.zarmedpratiksha.uz/uploads/images/wpratiksha.jpg?_t=1671173944" width="90%">
+                </div>
+                <?php if(Yii::$app->language=="uz")
+                {?>
+                <div class="col-lg-5 col-12">
+                     <h2 style="color:#283779 ;text-align:center">Xizmatlar</h2>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Hindistonga tibbiy hujjatlarni tarjima qilish va yuborishni tashkil qilish</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Ikkinchi tibbiy fikr</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Shifokorlar bilan video maslahatlashuvlar</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Davolashni onlayn olib ketish</p><br>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;97 936 02 09</a></p>                   
+                </div>
+                <?php
+                }
+                 else
+                 {
+                    ?>
+                    <div class="col-lg-5 col-12">
+                     <h2 style="color:#283779 ;text-align:center">Услуги</h2>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Организация перевода и отправки
+                                         медицинской документации в Индию</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Второе медицинское мнение</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Видео консультации с врачами</p><br>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн мониторинг лечения</p><br>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;97 936 02 09</a></p>                   
+                   </div>
+
+                <?php
+                 }
+                 ?>
+                
+            </div>
+        </div>
+            <div>
+
+                
+
+            </div>   
+
     </div>
 </section>
 
