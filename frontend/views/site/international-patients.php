@@ -41,7 +41,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Ikkinchi tibbiy fikr</p><br>
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Shifokorlar bilan video maslahatlashuvlar</p><br>
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Davolashni onlayn olib ketish</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;97 936 02 09</a></p>                   
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
                 </div>
                 <?php
                 }
@@ -55,7 +55,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Второе медицинское мнение</p><br>
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Видео консультации с врачами</p><br>
                                          <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн мониторинг лечения</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;97 936 02 09</a></p>                   
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
                    </div>
 
                 <?php
