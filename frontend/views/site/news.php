@@ -10,7 +10,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 
 <section class="blog-main bg-sfgrey-2" style="margin-top:100px">
     <div class="container">
-        <div class="sc-title-two text-center">
+        <div class="sc-title-two text-center" style="margin-top:80px">
 <!--            <h4 class="cl-green">Our Blogs</h4>-->
             <h2><?= Lx::t('frontend', 'NEWS AND PROMOTIONS OF OUR HOSPITAL') ?></h2>
         </div>
@@ -46,6 +46,8 @@ use lajax\translatemanager\helpers\Language as Lx;
 
             echo \yii\widgets\LinkPager::widget(['pagination'=>$sahifa,
                 'maxButtonCount'=>6,
+                'activePageCssClass'=>'act',
+                
             ])
             ?>
         </div>
