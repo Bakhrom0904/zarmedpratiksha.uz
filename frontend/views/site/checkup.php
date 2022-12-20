@@ -110,8 +110,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Urea') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Creatinine') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis C test (express method)') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'Hepatitis B test ( express method )') ?></h4>
+                                <h4 style="color:#283779;text-transform: capitalize;"><?= Lx::t('frontend', 'Hepatitis C test (express method)') ?></h4>
+                                <h4 style="color:#283779;text-transform: capitalize;"><?= Lx::t('frontend', 'Hepatitis B test ( express method )') ?></h4>
                                 <h4 style="color:#283779;text-transform:uppercase;"><?= Lx::t('frontend', 'ALT + AST') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Total bilirubin') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
