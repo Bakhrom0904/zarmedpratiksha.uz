@@ -23,7 +23,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['/']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white mb-3">
                         <i class="fas fa-capsules cl-green"></i>
                         <div class="sv-detail pl-4">
@@ -45,7 +45,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['department-services?id=59']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white">
                         <i class="fas fa-vials cl-green"></i>
                         <div class="sv-detail pl-4">
@@ -56,7 +56,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['contact']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white">
                         <i class="fas fa-medkit cl-green"></i>
                         <div class="sv-detail pl-4">
@@ -67,7 +67,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="<?= Url::to(['about']) ?>">
+                <a href="<?= Url::to(['/']) ?>">
                     <div class="service-aa p-4 d-flex align-items-center bg-white mb-0">
                         <i class="fas fa-star-of-life cl-green"></i>
                         <div class="sv-detail pl-4">
