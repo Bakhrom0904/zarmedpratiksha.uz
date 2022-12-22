@@ -12,7 +12,7 @@ use yii\helpers\Url;
                     <i class="<?= $social['phone']['icon'] ?> cl-white"></i>
                     <h3 class="cl-white mt-2"><?= Lx::t('frontend', 'Emergency Cases') ?></h3>
                     <p class="cl-white mb-3"></p>
-                    <a href="<?=Url::to(['contact'])?>" class="btn btn-white btn-na case-c1"><i class="<?= $social['phone']['icon'] ?>"></i> <?= $social['phone']['value'] ?></a>
+                    <a href="tel:+998955081448" class="btn btn-white btn-na case-c1"><i class="<?= $social['phone']['icon'] ?>"></i> <?= $social['phone']['value'] ?></a>
                 </div>
             </div>
             <div class="col-lg-4 p-lg-0">
@@ -21,7 +21,7 @@ use yii\helpers\Url;
                     <h3 class="cl-white mt-2"><?= Lx::t('frontend', 'Doctor Timetable') ?></h3>
                     <p class="cl-white mb-3"></p>
                     <a href="<?=Url::to(['doctors'])?>" class="btn btn-white btn-na case-c2"><i class="fas fa-user"></i>
-                        <?= Lx::t('frontend', 'Doctors') ?></a>
+                        <span style="text-transform: uppercase;"><?= Lx::t('frontend', 'Doctors') ?></span></a>
                 </div>
             </div>
             <div class="col-lg-4 pl-lg-0">
@@ -30,7 +30,7 @@ use yii\helpers\Url;
                     <h3 class="cl-white mt-2"><?= Lx::t('frontend', 'Request Appoinment') ?></h3>
                     <p class="cl-white mb-3"></p>
                     <a href="<?=Url::to(['appointment'])?>" class="btn btn-white btn-na case-c1"><i class="fas fa-file-alt"></i>
-                        <?= Lx::t('frontend', 'Make Appointment') ?></a>
+                    <span style="text-transform: uppercase;"><?= Lx::t('frontend', 'Make Appointment') ?></span></a>
                 </div>
             </div>
         </div>

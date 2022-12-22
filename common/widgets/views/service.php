@@ -41,7 +41,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['department-services?id=38']) ?>">
                     <div class="service-list bg-white bx-shadow">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-star-of-life"></i>
@@ -55,7 +55,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['departments']) ?>">
+                <a href="<?= Url::to(['department-services?id=55']) ?>">
                     <div class="service-list bg-white bx-shadow mb-0">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-vial"></i>

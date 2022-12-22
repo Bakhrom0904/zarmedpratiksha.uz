@@ -25,7 +25,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA");
     <?= Aboutus::widget() ?>
     <?= CaseTable::widget(['social' => $this->params['social']]) ?>
     <?= Service::widget() ?>
-    <?= Process::widget() ?>
+    <!-- <?= Process::widget() ?> -->
     <?= Process2::widget() ?>
     <?= Emergency::widget(['social' => $this->params['social']]) ?>
     <?= Affiliation::widget(['certificates' => $this->params['certificates']]) ?>
