@@ -79,7 +79,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Creatinine') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
-                                <h4 style="color:#283779"><?= Lx::t('frontend', 'PCA') ?></h4>
+                                <h4 style="color:#283779;text-transform: uppercase;"><?= Lx::t('frontend', 'PCA') ?></h4>
 
 
 
