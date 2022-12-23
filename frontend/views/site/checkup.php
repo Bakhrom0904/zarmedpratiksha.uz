@@ -79,10 +79,16 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'urine analysis') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Creatinine') ?></h4>
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glucose') ?></h4>
+                                <h4 style="color:#283779"><?= Lx::t('frontend', 'PCA') ?></h4>
+
 
 
                                 <h3 style="color:#F19035"><span style="text-decoration:line-through;">965 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">675 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035">675 000  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <p style="color:#283779">(<?= Lx::t('frontend', 'with colonoscopy') ?>)</p><br>
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">675 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">472 000  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <p style="color:#283779">(<?= Lx::t('frontend', 'without colonoscopy') ?>)</p>                      
                 </div>
                 
                  <!-- Standart -->
