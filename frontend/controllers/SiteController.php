@@ -6,6 +6,7 @@ use common\controllers\Controller;
 use common\models\Appointment;
 use common\models\Contact;
 use common\models\Department;
+use common\models\Discount;
 use common\models\GoogleAds;
 use common\models\Menu;
 use common\models\News;
@@ -645,6 +646,23 @@ class SiteController extends Controller
     public function actionOKlinike()
     {
         return $this->redirect("/");
+    }
+
+    public function actionDiscount()
+    {
+        $m=Discount::find();
+
+        $sahifa=new Pagination(["totalCount"=>$m->count(),'defaultPageSize'=>3]);
+
+        $discount=$m->offset($sahifa->offset)->limit($sahifa->limit)->orderBy("id DESC")->all();
+
+        return $this->render("discount",["discount"=>$discount,"sahifa"=>$sahifa]);
+    }
+
+    public function actionDiscounts($id)
+    {
+        $d=Discount::findOne(["id"=>$id]);
+        return $this->render("discounts",["d"=>$d]);
     }
     
 }

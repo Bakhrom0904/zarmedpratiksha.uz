@@ -9,7 +9,7 @@ use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Modal;
 use yii\helpers\Html;
 
-$this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend', 'International Patients');
+$this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend', 'International department');
 ?>
 <?= \dominus77\sweetalert2\Alert::widget(['useSessionFlash' => true]) ?>
 <?= Banner::widget(['title' => $this->title]) ?>
@@ -18,7 +18,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
     <div class="container">
         <div class="sc-title-two text-center">
             <!-- <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'International Patients') ?></h4> -->
-            <h2 style="color:#283779"><?= Lx::t('frontend', 'International Patients') ?></h2>
+            <h2 style="color:#283779"><?= Lx::t('frontend', 'International department') ?></h2>
         </div>
         <div >
             <div class="mb-2">
