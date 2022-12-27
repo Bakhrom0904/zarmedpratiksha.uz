@@ -7,7 +7,7 @@ use yii\helpers\Url;
 <?php $title='title_'.Yii::$app->language;    ?>
 <?php $description='description_'.Yii::$app->language;    ?>
 
-<section class="aboutus aboutus-3" style="margin-top: 100px">
+<section class="aboutus aboutus-3" style="margin-top: 200px">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12">

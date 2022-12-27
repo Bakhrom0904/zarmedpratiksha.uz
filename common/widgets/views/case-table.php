@@ -12,7 +12,7 @@ use yii\helpers\Url;
                     <i class="<?= $social['phone']['icon'] ?> cl-white"></i>
                     <h3 class="cl-white mt-2"><?= Lx::t('frontend', 'Emergency Cases') ?></h3>
                     <p class="cl-white mb-3"></p>
-                    <a href="tel:+998955081448" class="btn btn-white btn-na case-c1"><i class="<?= $social['phone']['icon'] ?>"></i> <?= $social['phone']['value'] ?></a>
+                    <a href="tel:+998557021063" class="btn btn-white btn-na case-c1"><i class="<?= $social['phone']['icon'] ?>"></i> <?= $social['phone']['value'] ?></a>
                 </div>
             </div>
             <div class="col-lg-4 p-lg-0">
