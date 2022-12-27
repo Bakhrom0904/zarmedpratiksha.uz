@@ -79,6 +79,11 @@ use lajax\translatemanager\helpers\Language as Lx;
           <span><i class="fas fa-stethoscope"></i><?=Lx::t('backend', 'Doctors')?></span>
         </a>
       </li>
+      <li class="menu-item <?=Yii::$app->controller->id == 'news' ? 'menu-active' : ''?>">
+        <a href="<?=Url::to(['/news'])?>" aria-expanded="false" aria-controls="news">
+          <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'News')?></span>
+        </a>
+      </li>
        <li class="menu-item <?=Yii::$app->controller->id == 'gallery' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/gallery'])?>" aria-expanded="false" aria-controls="gallery">
           <span><i class="fas fa-camera"></i><?=Lx::t('backend', 'Galleries')?></span>
