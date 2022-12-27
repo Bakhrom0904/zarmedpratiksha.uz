@@ -43,8 +43,18 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', 'O
                                     <i class="fas fa-chevron-right"></i>
                                     <span class="cl-blue fw-bold"><?= Lx::t('frontend', 'Experience') ?></span>
                                 </div>
+                                <?php
+                                    if($doctor->experience==22||$doctor->experience==23||$doctor->experience==24||$doctor->experience==32||$doctor->experience==33||$doctor->experience==34)
+                                    {
+                                        $y='Year';
+                                    }
+                                    else
+                                    {
+                                        $y='Years';
+                                    }
+                                ?>
                                 <div class="w-75">
-                                    <span><?= $doctor->experience . ' ' . Lx::t('frontend', 'Years') ?></span>
+                                    <span><?= $doctor->experience . ' ' . Lx::t('frontend', $y) ?></span>
                                 </div>
                             </div>
                         </div>
