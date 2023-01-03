@@ -11,23 +11,13 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <img src="/images/inner/IMG_1656.jpg" />
                 </div>
             </div>
-            <div class="col-lg-7 col-md-6">
+            <div class="col-lg-7 col-md-6" style="background-image: url('https://thumbs.dreamstime.com/b/золотая-медальная-лента-с-изогнутым-окружением-достижения-лучшего-252419000.jpg');background-size: 420px 350px;background-repeat: no-repeat;background-position: right;background-blend-mode: lighten;">
                 <div class="sc-title-one mb-3">
-                    <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'WELCOME TO PERFECT MEDICAL SERVICE') ?></h4>
-                    <h2 class="mb-3"><?= Lx::t('frontend', 'Individual approach to each patient') ?></h2>
+                    <h2 style="color:#F19035;text-transform: uppercase;"><?= Lx::t('frontend', 'Attention Preferential Order Holders!') ?></h2>
+                    <h2 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Now you have the opportunity to choose the "ZARMED PRATIKSHA BOGISHAMOL" clinic!') ?></h2>
                 </div>
-                <div class="about-detail">
-                    <ul class="d-flex flex-wrap">
-                        <li class="w-50"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Professional Doctors') ?>
-                        </li>
-                        <li class="w-50"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Online Support 24/7') ?></li>
-                        <li class="w-50"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Digital Laboratory') ?></li>
-                        <li class="w-50"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Favorable Packages') ?></li>
-                        <li class="w-50 border-lg-0"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Online appointment for a consultation') ?>
-                        </li>
-                        <li class="w-50 border-lg-0"><i class="fas fa-circle cl-green" style="font-size: 12px"></i><?= Lx::t('frontend', 'Quality services') ?>
-                        </li>
-                    </ul>
+                <div class="px-3">
+                                <a href="https://lex.uz/acts/1489233" target="_blank" class="btn bg-blue text-white p-3"><?= Lx::t('frontend', 'Details') ?></a>
                 </div>
             </div>
         </div>
