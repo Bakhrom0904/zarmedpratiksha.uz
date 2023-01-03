@@ -11,7 +11,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <img src="/images/inner/IMG_1656.jpg" />
                 </div>
             </div>
-            <div class="col-lg-7 col-md-6" style="background-image: url('https://thumbs.dreamstime.com/b/золотая-медальная-лента-с-изогнутым-окружением-достижения-лучшего-252419000.jpg');background-size: 420px 350px;background-repeat: no-repeat;background-position: right;background-blend-mode: lighten;">
+            <div class="col-lg-7 col-md-6" style="background-image: url('https://www.zarmedpratiksha.uz/uploads/banner/Order-logo.jpg?_t=1672745688');background-size: 400px 350px;background-repeat: no-repeat;background-position: right;background-blend-mode: lighten;">
                 <div class="sc-title-one mb-3">
                     <h2 style="color:#F19035;text-transform: uppercase;"><?= Lx::t('frontend', 'Attention Preferential Order Holders!') ?></h2>
                     <h2 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Now you have the opportunity to choose the "ZARMED PRATIKSHA BOGISHAMOL" clinic!') ?></h2>
