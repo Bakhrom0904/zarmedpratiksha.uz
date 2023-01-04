@@ -48,10 +48,10 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                     'dateFormat' => 'yyyy-MM-dd',
                                 ])->input('text', ['placeholder' => Lx::t('frontend', 'Select Date')])->label(false) ?>
                             </div>
-                            <div class="col-12 px-2">
+                            <!-- <div class="col-12 px-2">
                                 <?= $form->field($model, 'time_id', ['options' => ['class' => 'd-none']])->hiddenInput()->label(false) ?>
                                 <div id="time" class="d-none text-justify container bg-white mb-2 p-3 border rounded"></div>
-                            </div>
+                            </div> -->
                             <div class="col-md-6 px-2">
                                 <?= $form->field($model, 'fullname')->textInput(['placeholder' => Lx::t('frontend', 'Full Name')])->label(false) ?>
                             </div>

@@ -17,7 +17,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <h2 class="cl-green text-uppercase"><?= Lx::t('frontend', 'Now you have the opportunity to choose the "ZARMED PRATIKSHA BOGISHAMOL" clinic!') ?></h2>
                 </div>
                 <div class="px-3">
-                                <a href="https://zarmedpratiksha.uz/discounts?id=3" target="_blank" class="btn bg-blue text-white p-3"><?= Lx::t('frontend', 'Details') ?></a>
+                                <a href="https://zarmedpratiksha.uz/discounts?id=3" class="btn bg-blue text-white p-3"><?= Lx::t('frontend', 'Details') ?></a>
                 </div>
             </div>
         </div>

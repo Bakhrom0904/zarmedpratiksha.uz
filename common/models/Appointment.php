@@ -35,14 +35,14 @@ class Appointment extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['department_id', 'doctor_id', 'time_id'], 'integer'],
+            [['department_id', 'doctor_id'], 'integer'],
             [['date', 'status'], 'safe'],
-            [['department_id', 'doctor_id', 'time_id', 'fullname', 'phone'], 'required'],
+            [['department_id', 'doctor_id', 'fullname', 'phone'], 'required'],
             [['fullname'], 'string', 'max' => 120],
             [['phone'], 'string', 'max' => 20],
             [['department_id'], 'exist', 'skipOnError' => true, 'targetClass' => Department::className(), 'targetAttribute' => ['department_id' => 'id']],
             [['doctor_id'], 'exist', 'skipOnError' => true, 'targetClass' => Doctor::className(), 'targetAttribute' => ['doctor_id' => 'id']],
-            [['time_id'], 'exist', 'skipOnError' => true, 'targetClass' => Time::className(), 'targetAttribute' => ['time_id' => 'id']],
+            // [['time_id'], 'exist', 'skipOnError' => true, 'targetClass' => Time::className(), 'targetAttribute' => ['time_id' => 'id']],
         ];
     }
 

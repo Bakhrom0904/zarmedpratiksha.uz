@@ -380,7 +380,7 @@ class SiteController extends Controller
         $model = new Contact();
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
-                \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
+                \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, Yii::t('frontend', "Sent"));
 
                 return $this->redirect('/contact');
 
@@ -427,7 +427,7 @@ class SiteController extends Controller
             if ($model->save()) {
                 $doc=$model->doctor->last_name_uz." ".$model->doctor->first_name_uz." ".$model->doctor->middle_name_uz;
                 $b=$model->department->$name ? $model->department->$name : '';
-                \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, 'You have successfully sent your request!');
+                \Yii::$app->session->setFlash(Alert::TYPE_SUCCESS, Yii::t('frontend', "Sent"));
 
                 return $this->redirect('/appointment');
 
