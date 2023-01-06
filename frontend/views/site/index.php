@@ -12,6 +12,7 @@ use common\widgets\Process;
 use common\widgets\Process2;
 use common\widgets\Service;
 use common\widgets\Service2;
+use common\widgets\Youtube;
 use lajax\translatemanager\helpers\Language as Lx;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -24,9 +25,10 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA");
     <?= MainBanner::widget(['items' => $banners]) ?>
     <?= Aboutus::widget() ?>
     <?= CaseTable::widget(['social' => $this->params['social']]) ?>
-    <?= Service::widget() ?>
-    <!-- <?= Process::widget() ?> -->
     <?= Process2::widget() ?>
+    <?= Service::widget() ?>
+    <?= Youtube::widget() ?>
+    <!-- <?= Process::widget() ?> -->
     <?= Emergency::widget(['social' => $this->params['social']]) ?>
     <?= Affiliation::widget(['certificates' => $this->params['certificates']]) ?>
     <?= Service2::widget() ?>
