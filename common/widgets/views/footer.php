@@ -28,7 +28,7 @@ use yii\helpers\Url;
                                 <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Isaeva str 20, Samarkand, Uzbekistan') ?></a></li>
                                 <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
                                 <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Tajikistan') ?></a></li>
-                                <li><a href="mailto:<?= $social['email']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
+                                <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
                                 <li><a href="mailto:<?= $social['email']['value'] ?? '' ?>"><?= $social['email']['value'] ?? '' ?></a></li>
                             </ul>
                         </div>
