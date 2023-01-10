@@ -17,7 +17,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <div class="sc-title-two sc-title-two-white sc-border-left w-100 mb-10 pr-lg-5">
-                            <h4 class="cl-white"><?= $article->service->name ?></h4>
+                            <!-- <h4 class="cl-white"><?= $article->service->name ?></h4> -->
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         </div>
                         <div class="author__datetime mb-3">
                             <ul>
-                                <li><i class="far fa-calendar"></i> <?= $article->publishedDate ?></li>
+                                <!-- <li><i class="far fa-calendar"></i> <?= $article->publishedDate ?></li> -->
                             </ul>
                         </div>
                         <div class="bg__only_detail default__p mb-3">
@@ -49,12 +49,12 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                                 <img src="<?= $article->doctor->img ?>" class="rounded-circle" alt=""/>
                             </div>
                             <div class="blg_user_detail">
-                                <h3>
+                                <h3 style="text-transform: capitalize;">
                                     <?= Html::a($article->doctor->fullname, Url::to(['doctor-profile', 'id' => $article->doctor->id])) ?>
                                 </h3>
-                                <p>
+                                <!-- <p>
                                     <?= Html::a($article->service->name, Url::to(['service-info', 'id' => $article->service->id])) ?>
-                                </p>
+                                </p> -->
                                 <div>
                                     <?= $article->doctor->trimAbout ?>
                                 </div>
