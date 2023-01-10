@@ -36,11 +36,9 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ". Yii::t('frontend', 
                                         <p><?= $article->trimDescription ?></p>
                                     </div>
                                 </div>
-                                <!-- <div class="article-footer">
-                                    <ul>
-                                        <li class="cl-lgrey2 pr-2"><?= $article->publishedDate ?></li>
-                                    </ul>
-                                </div> -->
+                                <div class="article-footer">
+                                    
+                                </div>
                             </div>
                         </div>
                     <?php } ?>
