@@ -52,6 +52,10 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/WuzFmLiax4A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
+                        elseif($department->id==73)
+                        {
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/bfcp7FyXiak' title='ZARMED PRATIKSHA Bog'ishamol.Пластическая хирургия. Blefaroplastika/Блефаропластика' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+                        }
                         else
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/ysK1zeIfySY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
