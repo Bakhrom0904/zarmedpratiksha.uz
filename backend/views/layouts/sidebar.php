@@ -110,8 +110,8 @@ use lajax\translatemanager\helpers\Language as Lx;
         </a>
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'event' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/event'])?>" aria-expanded="false" aria-controls="event">
-          <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Events')?></span>
+        <a href="<?=Url::to(['/discount'])?>" aria-expanded="false" aria-controls="event">
+          <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Discounts')?></span>
         </a>
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">

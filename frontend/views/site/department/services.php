@@ -69,7 +69,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                 </div>
                 <div class="col-lg-8 col-md-8">
                     <div class="sv-detail-content about-detail mb-3">
-                        <h2><?= $department->name ?></h2>
+                        <!-- <h2><?= $department->name ?></h2> -->
                         <img class="w-100" src="<?= $department->img ?>">
                         <p class="py-3">
                             <?= $department->description ?>
