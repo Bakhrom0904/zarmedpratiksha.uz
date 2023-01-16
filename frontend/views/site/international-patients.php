@@ -37,13 +37,16 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                 <?php if(Yii::$app->language=="uz")
                 {?>
                 <div class="col-lg-5 col-12">
-                <p style="color:#283779 ;font-weight: bold;font-size:20px;">Xalqaro bo'lim quyidagi xizmatlarda yordam beradi:</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tibbiy hujjatlarni tarjima qilish</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tibbiy hujjatlarni Hindistonga yuborish</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Ikkinchi tibbiy fikrni taqdim etish</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Hindistonlik mutaxassislar bilan video konsultatsiyalarni tashkil etish</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Belgilangan davolanishni onlayn kuzatish</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
+                <p style="color:#283779 ;font-weight: bold;font-size:20px;">Sizga tashxis qo'yilgan, lekin siz uning to'g'riligiga shubha qilyapsizmi? Hindistonlik shifokorlarning muqobil fikrini olish uchun ajoyib imkoniyat mavjud! "Zarmed Pratiksha Bog'ishamol" klinikasining xalqaro bo'limiga murojaat qiling.</p><br>
+                <p style="color:#283779 ;font-weight: bold;font-size:20px;">Xalqaro bo'lim quyidagi xizmatlarda yordam beradi:</p>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Teletibbiyot</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tibbiy hujjatlarni tarjima qilish</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tibbiy hujjatlarni Hindistonga yuborish</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Shifokorlarning muqobil fikrini onlayn taqdim etish</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Bemorlarni onlayn kuzatib borish</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tayinlangan onlayn davolanishni kuzatib borish</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Hindistonlik mutaxassislar bilan videoko'riklar tashkil etish: siz uchun qulay vaqtda, onlayn, navbatsiz va mutaxassis tajribasi va malakasiga ishonch bilan. Onlayn ko'rik - bu shifokor bilan videokonferentsiya orqali muloqot qilishdir. Bu jarayon tibbiy xulosalar va diagnostika natijalari asosida amalga oshiriladi</p>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
                 </div>
                 <?php
                 }
@@ -51,13 +54,16 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                  {
                     ?>
                     <div class="col-lg-5 col-12">
-                    <p style="color:#283779 ;font-weight: bold;font-size:20px;">Международный отдел  предоставляет помощь в следующих услугах:</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Перевод медицинской документации</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Отправка медицинской  документации в Индию</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Предоставление второго медицинского мнения</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Организация видео-консультаций с индийскими специалистами</p><br>
-                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн наблюдение назначенного лечения</p><br>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
+                    <p style="color:#283779 ;font-weight: bold;font-size:20px;">ВАМ ПОСТАВИЛИ ДИАГНОЗ, НО ВЫ СОМНЕВАЕТЕСЬ В НЁМ? ЕСТЬ ОТЛИЧНАЯ ВОЗМОЖНОСТЬ ПОЛУЧИТЬ АЛЬТЕРНАТИВНОЕ МНЕНИЕ ИНДИЙСКИХ ВРАЧЕЙ! ОБРАЩАЙТЕСЬ В МЕЖДУНАРОДНЫЙ ОТДЕЛ КЛИНИКИ “ZARMED PRATIKSHA BOG’ISHAMOL”.</p><br>
+                    <p style="color:#283779 ;font-weight: bold;font-size:20px;">Международный отдел предоставляет помощь в следующих услугах:</p>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;  Телемедицина</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Перевод медицинской документации</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Отправка медицинской документации в Индию</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн-предоставление альтернативного мнения врачей</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн-наблюдение пациентов</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;  Мониторинг назначенного онлайн-лечения</p>
+                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Организация видео-консультаций с индийскими специалистами: в удобное для вас время, онлайн, без ожидания в очереди и с уверенностью в опыте и квалификации специалиста</p>
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
                    </div>
 
                 <?php
