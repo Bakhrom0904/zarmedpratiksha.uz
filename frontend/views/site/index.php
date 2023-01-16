@@ -33,7 +33,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA");
     <?= Emergency::widget(['social' => $this->params['social']]) ?>
     <?= Affiliation::widget(['certificates' => $this->params['certificates']]) ?>
     <?= Service2::widget() ?>
-
+    <!-- test -->
     <section class="team">
         <div class="container">
             <div class="sc-title-two text-center">
