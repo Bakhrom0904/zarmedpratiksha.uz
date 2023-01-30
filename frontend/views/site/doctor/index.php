@@ -54,25 +54,25 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend'
                             <div class="team-name py-3 d-flex flex-column justify-content-between" style="flex: 1">
                                 <h4 class="text-capitalize"
                                     style="flex: 1"><?= Html::a($doctor->fullname, Url::to(['doctor-profile', 'id' => $doctor->id])) ?></h4>
-                                    <? if($doctor->id==2 && Yii::$app->language=='ru')
+                                    <?php if($doctor->id==2 && Yii::$app->language=='ru')
                                     {?>
                                         <p class="cl-green" style="flex: 1">Главный врач</p>
-                                    <?
+                                    <?php
                                     }
                                     elseif($doctor->id==2 && Yii::$app->language=='uz')
                                     {?>
                                         <p class="cl-green" style="flex: 1">Bosh shifokor</p>
-                                   <?
+                                   <?php
                                    }
                                    elseif($doctor->id==2 && Yii::$app->language=='en')
                                     {?>
                                         <p class="cl-green" style="flex: 1">Chief Medical Officer</p>
-                                   <?
+                                   <?php
                                    }
                                     else
                                     {?>
                                         <p class="cl-green" style="flex: 1"><?= $doctor->department->name ?></p>
-                                   <?
+                                   <?php
                                    }?>
                                 
                             </div>
