@@ -27,8 +27,27 @@ use yii\helpers\Url;
                             <ul class="d-flex flex-column">
                                 <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Isaeva str 20, Samarkand, Uzbekistan') ?></a></li>
                                 <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
-                                <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Tajikistan') ?></a></li>
-                                <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
+                                <li>
+                                <ul class="social-links-a square-link list-unstyled d-flex flex-row">
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank" href="https://www.facebook.com/zarmedpratiksha/"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank" href="https://www.youtube.com/channel/UCGvS2Np6R03scueouVVpF8A"><i
+                                        class="fab fa-youtube"></i></a>
+                                </li>
+                                <li class="m-2">
+                                    <a class="btn btn-primary d-flex justify-content-center align-items-center"
+                                        style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
+                                        target="_blank"
+                                        href="https://t.me/zarmedportal"><i class="fa-brands fa-telegram"></i></a>
+                                </li>
+                            </ul>
+                                </li>
                                 <li><a href="mailto:<?= $social['email']['value'] ?? '' ?>"><?= $social['email']['value'] ?? '' ?></a></li>
                             </ul>
                         </div>
