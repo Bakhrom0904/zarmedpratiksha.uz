@@ -28,7 +28,7 @@ use yii\helpers\Url;
                                 <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Isaeva str 20, Samarkand, Uzbekistan') ?></a></li>
                                 <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
                                 <li>
-                                <ul class="social-links-a square-link list-unstyled d-flex flex-row">
+                                <ul class="social-links-a square-link list-unstyled d-flex flex-row justify-content-center align-items-center">
                                 <li class="m-2">
                                     <a class="btn btn-primary d-flex justify-content-center align-items-center"
                                         style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
