@@ -47,7 +47,28 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA");
                                 <img src="<?= $doctor->img ?>" alt="<?= $doctor->fullname ?>"/>
                             </div>
                             <div class="team-name-ab bx-shadow pt-4 pb-2">
-                                <?= Html::a(' <h4 class="text-capitalize">' . $doctor->fullname . '</h4><p class="cl-green">' . $doctor->department->name . '</p>', ['doctor-profile', 'id' => $doctor->id]) ?>
+                                <?= Html::a(' <h4 class="text-capitalize">' . $doctor->fullname . '</h4>', ['doctor-profile', 'id' => $doctor->id]) ?>
+                                <?php if($doctor->id==2 && Yii::$app->language=='ru')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Главный врач</p>
+                                    <?php
+                                    }
+                                    elseif($doctor->id==2 && Yii::$app->language=='uz')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Bosh shifokor</p>
+                                   <?php
+                                   }
+                                   elseif($doctor->id==2 && Yii::$app->language=='en')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Chief Medical Officer</p>
+                                   <?php
+                                   }
+                                    else
+                                    {?>
+                                        <p class="cl-green" style="flex: 1"><?= $doctor->department->name ?></p>
+                                   <?php
+                                   }?>
+                                
                             </div>
                         </div>
                     </div>
