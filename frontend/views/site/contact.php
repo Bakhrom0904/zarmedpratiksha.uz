@@ -54,11 +54,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
         </div>
         <div class="row">
             <div class="col-lg-6 mb-3">
-                <div class="map-wrap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.0486070657944!2d66.94431071570048!3d39.64862060991711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d19fbf4b2d8d9%3A0x7349d93e43099d11!2sZARMED%20PRATIKSHA%20Bog&#39;ishamol!5e0!3m2!1sru!2s!4v1650259779786!5m2!1sru!2s"
-                            width="100%" style="border:0; min-height: 450px" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+            <iframe style="width: 100%; margin:2px auto;" height="420" src="https://www.youtube.com/embed/ysK1zeIfySY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col-lg-6 ps-lg-5">
                 <?php $form = ActiveForm::begin(); ?>
@@ -96,7 +92,27 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                             <img src="<?= $doctor->img ?>" alt="<?= $doctor->fullname ?>"/>
                         </div>
                         <div class="team-name-ab bx-shadow pt-4 pb-2">
-                            <?= Html::a(' <h4 class="text-capitalize">' . $doctor->fullname . '</h4><p class="cl-green">' . $doctor->department->name . '</p>', ['doctor-profile', 'id' => $doctor->id]) ?>
+                            <?= Html::a(' <h4 class="text-capitalize">' . $doctor->fullname . '</h4>', ['doctor-profile', 'id' => $doctor->id]) ?>
+                            <?php if($doctor->id==2 && Yii::$app->language=='ru')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Главный врач</p>
+                                    <?php
+                                    }
+                                    elseif($doctor->id==2 && Yii::$app->language=='uz')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Bosh shifokor</p>
+                                   <?php
+                                   }
+                                   elseif($doctor->id==2 && Yii::$app->language=='en')
+                                    {?>
+                                        <p class="cl-green" style="flex: 1">Chief Medical Officer</p>
+                                   <?php
+                                   }
+                                    else
+                                    {?>
+                                        <p class="cl-green" style="flex: 1"><?= $doctor->department->name ?></p>
+                                   <?php
+                                   }?>
                         </div>
                     </div>
                 </div>
