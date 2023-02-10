@@ -24,7 +24,7 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA") . " | " . Lx::t('frontend',
                         <div class="col-lg-4 col-md-6 mb-3">
                             <div>
                                 <?= Html::a('', Url::to(['department-services', 'id' => $department->id]), ['style' => 'background-image: url("' . $department->img . '"); background-repeat: no-repeat; background-size: cover; background-position: center; min-height: 150px', 'class' => 'overflow-hidden service-aa p-4 d-flex align-items-center border-start bw-2 bc-green bx-shadow bg-white h-100']) ?>
-                                <?= Html::a('<h3 class="text-center cl-green">' . $department->name . '</h3>', Url::to(['department-services', 'id' => $department->id]), ['class' => 'd-block']) ?>
+                                <?= Html::a('<h3 class="text-center cl-green text-uppercase">' . $department->name . '</h3>', Url::to(['department-services', 'id' => $department->id]), ['class' => 'd-block']) ?>
                             </div>
                         </div>
                     <?php } ?>
