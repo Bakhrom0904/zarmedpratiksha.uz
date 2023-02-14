@@ -1,6 +1,7 @@
 <?php
 
 use lajax\translatemanager\helpers\Language as Lx;
+$til=Yii::$app->language;
 
 ?>
 <section class="aboutus">
@@ -8,7 +9,18 @@ use lajax\translatemanager\helpers\Language as Lx;
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6 pe-lg-5">
                 <div class="about-img-2">
-                    <img src="/images/inner/IMG_1656.jpg" />
+                    <?php
+                    if($til=="ru")
+                    {
+                        ?>
+                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Ru-22-23-Fevral.jpg?_t=1676369853" />
+                   <?php }
+                    else
+                    {
+                        ?>
+                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/uz-22-23-fevral.jpg?_t=1676369853" >
+                   <?php }
+                    ?>
                 </div>
             </div>
             <div class="col-lg-7 col-md-6" style="background-image: url('https://www.zarmedpratiksha.uz/uploads/banner/Order-logo.jpg?_t=1672745688');background-size: 400px 350px;background-repeat: no-repeat;background-position: right;background-blend-mode: lighten;">
