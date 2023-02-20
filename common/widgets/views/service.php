@@ -55,13 +55,13 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['department-services?id=55']) ?>">
+                <a href="<?= Url::to(['department-services?id=3']) ?>">
                     <div class="service-list bg-white bx-shadow mb-0">
                         <div class="sv-icon mb-3">
-                            <i class="fas fa-vial"></i>
+                        <i class="fa-solid fa-house-medical"></i>
                         </div>
                         <div class="sv-title">
-                            <h3><?= Lx::t('frontend', 'Labrotory Test') ?></h3>
+                            <h3><?= Lx::t('frontend', 'Maternity ward') ?></h3>
                         </div>
                         <p class="cl-grey">
                         </p>
