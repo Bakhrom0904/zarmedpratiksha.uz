@@ -37,7 +37,7 @@ use yii\helpers\Url;
                                 <li class="m-2">
                                     <a class="btn btn-primary d-flex justify-content-center align-items-center"
                                         style="color:blue;background:white;width:30px; height:30px;border-radius: 50%;"
-                                        target="_blank" href="https://www.youtube.com/channel/UCGvS2Np6R03scueouVVpF8A"><i
+                                        target="_blank" href="https://www.youtube.com/@zarmedpratiksha5033/videos"><i
                                         class="fab fa-youtube"></i></a>
                                 </li>
                                 <li class="m-2">
