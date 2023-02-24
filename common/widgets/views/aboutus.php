@@ -13,12 +13,12 @@ $til=Yii::$app->language;
                     if($til=="ru")
                     {
                         ?>
-                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Ru-22-23-Fevral.jpg?_t=1676369853" />
+                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Zarmed.jpg?_t=1676371834" />
                    <?php }
                     else
                     {
                         ?>
-                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/uz-22-23-fevral.jpg?_t=1676369853" >
+                            <img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Zarmed.jpg?_t=1676371834" >
                    <?php }
                     ?>
                 </div>
