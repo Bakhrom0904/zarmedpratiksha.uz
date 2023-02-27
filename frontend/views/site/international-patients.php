@@ -31,8 +31,8 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
 
             <div class="row mt-2">
                 <div class="col-lg-7 col-12">
-                        <img src="https://www.zarmedpratiksha.uz/uploads/Videochat.jpg?_t=1672052272" width="96%"><br>
                         <img src="https://www.zarmedpratiksha.uz/uploads/images/wpratiksha.jpg?_t=1671173944" width="96%">
+                        <iframe style="width: 96%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/_OZxAOK034Q" title="Международный отдел клиники “Zarmed Pratiksha Bog’ishamol”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <?php if(Yii::$app->language=="uz")
                 {?>
