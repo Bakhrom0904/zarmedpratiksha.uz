@@ -54,7 +54,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         }
                         elseif($department->id==73)
                         {
-                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/bfcp7FyXiak' title='ZARMED PRATIKSHA Bog'ishamol.Пластическая хирургия. Blefaroplastika/Блефаропластика' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/YpjrS57UuO8' title='Plastik jarrohlar, katta tajribaga ega mutaxassislar Adamyan Ruben Tatevosovich va Murodov Akmal' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
                         elseif($department->id==13)
                         {
