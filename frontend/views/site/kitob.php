@@ -3,7 +3,7 @@
 use yii2assets\pdfjs\PdfJs;
 use yii\helpers\Url;
 
-$string = $string = Url::base() . '/' . "Kitob.pdf";
+$string =Url::base() . '/' . 'Kitob.pdf';
 $string = str_replace(" ", "%20",$string); // fayl nomidagi probellarni %20 ga almashtirish.
 
 echo PdfJs::widget([
