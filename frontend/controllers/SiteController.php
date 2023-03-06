@@ -664,5 +664,10 @@ class SiteController extends Controller
         $d=Discount::findOne(["id"=>$id]);
         return $this->render("discounts",["d"=>$d]);
     }
+
+    public function actionKitob()
+    {
+        return $this->render("kitob");
+    }
     
 }

@@ -20,6 +20,14 @@ return [
         'translatemanager' => [
             'class' => 'lajax\translatemanager\Module',
         ],
+        'pdfjs' => [
+            'class' => '\yii2assets\pdfjs\Module',
+            'waterMark'=>[
+                'text'=>'zarmedpratiksha.uz',
+                'color'=> 'black',
+                'alpha'=>'0.06'
+            ]
+        ],
     ],  
     'components' => [
         'languagepicker' => [
