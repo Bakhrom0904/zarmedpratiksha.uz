@@ -32,7 +32,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "git@github.com:RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -2781,16 +2781,16 @@
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.6.1",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "8dd2fd54293e94fa1536c3c66700c707d814e043"
+                "reference": "0393388c2c75faa621a79450a2e7f2c7f831141b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/8dd2fd54293e94fa1536c3c66700c707d814e043",
-                "reference": "8dd2fd54293e94fa1536c3c66700c707d814e043",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/0393388c2c75faa621a79450a2e7f2c7f831141b",
+                "reference": "0393388c2c75faa621a79450a2e7f2c7f831141b",
                 "shasum": ""
             },
             "require": {
@@ -2825,7 +2825,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tedious/JShrink/issues",
-                "source": "https://github.com/tedious/JShrink/tree/v1.6.1"
+                "source": "https://github.com/tedious/JShrink/tree/v1.6.2"
             },
             "funding": [
                 {
@@ -2837,7 +2837,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-06T03:50:57+00:00"
+            "time": "2023-03-06T14:42:03+00:00"
         },
         {
             "name": "tubalmartin/cssmin",

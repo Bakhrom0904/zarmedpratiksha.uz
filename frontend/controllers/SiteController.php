@@ -667,6 +667,7 @@ class SiteController extends Controller
 
     public function actionKitob()
     {
+        $this->layout = 'blank';
         return $this->render("kitob");
     }
     

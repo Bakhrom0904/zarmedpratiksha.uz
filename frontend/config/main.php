@@ -27,7 +27,7 @@ return [
                 'color'=> 'black',
                 'alpha'=>'0.06'
             ]
-        ]
+        ],
 
     ],  
     'components' => [
