@@ -10,8 +10,8 @@ use lajax\translatemanager\helpers\Language as Lx;
             <div class="col-lg-6">
                 <div class="sc-title-two sc-title-two-white sc-border-left appoint-info w-100 mb-7">
                     <i class="fas fa-phone-volume bg-lgreen"></i>
-                    <h3 class="cl-white mt-2"><?= Lx::t('frontend', 'Call An Emergency') ?></h3>
-                    <h2 class="cl-white fsc-5 mb-3"><?= Lx::t('frontend', 'Call') . ': '?><a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></h2>
+                    <h2 class="cl-white mt-2"><?= Lx::t('frontend', 'Call An Emergency') ?></h2>
+                    <h2 class="cl-white fsc-5 mb-3"><?= Lx::t('frontend', 'Call') . ': '?><a href="tel:1063" style="color:#F19035;">1063</a></h2>
                 </div>
                 <div class="appoint-detail">
                     <p class="cl-white"><?= Lx::t('frontend', 'In case you choose a heavy amount for personal consumption or in the Emergency Medical Service') ?></p>
