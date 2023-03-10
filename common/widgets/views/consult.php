@@ -20,7 +20,7 @@ use yii\helpers\Url;
                 <p class="call-to-mid cl-white"><?= Lx::t('frontend', 'Our highly qualified doctors are ready to provide you with the necessary medical care at any time of the day.') ?></p>
             </div>
             <div class="col-lg-4 col-md-12 text-center">
-                <a href="<?=Url::to(['contact'])?>" class="btn btn-white"><?= Lx::t('frontend', 'Get Consultation') ?></a>
+                <a href="<?=Url::to(['contact'])?>" class="btn btn-white"><?= Lx::t('frontend', 'Send message') ?></a>
             </div>
         </div>
     </div>
