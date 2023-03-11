@@ -71,7 +71,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $app = \common\models\Appointment::find()->all();
+        $app = \common\models\Appointment::find()->orderBy("id DESC")->all();
         $docs = \common\models\Doctor::find()->count();
         $deps = \common\models\Department::find()->count();
         $serv = \common\models\Service::find()->count();
