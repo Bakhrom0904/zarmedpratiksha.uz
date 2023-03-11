@@ -12,7 +12,7 @@ use lajax\translatemanager\helpers\Language as Lx;
                     <i class="fas fa-phone-volume bg-lgreen"></i>
                     <h2 class="cl-white mt-2"><?= Lx::t('frontend', 'Call An Emergency') ?></h2>
                     <h2 class="cl-white fsc-5 mb-3"><?= Lx::t('frontend', 'Call') . ': '?><a href="tel:1063" style="color:#F19035;">1063</a></h2>
-                    <h2><a href="tel:+9989557021063" style="color:#F19035;">+998 55 702 10 63</a></h2>
+                    <h2><a href="tel:+998557021063" style="color:#F19035;">+998 55 702 10 63</a></h2>
                 </div>
                 <div class="appoint-detail">
                     <p class="cl-white"><?= Lx::t('frontend', 'In case you choose a heavy amount for personal consumption or in the Emergency Medical Service') ?></p>
