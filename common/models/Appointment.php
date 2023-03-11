@@ -37,7 +37,7 @@ class Appointment extends \yii\db\ActiveRecord
         return [
             [['department_id', 'doctor_id'], 'integer'],
             [['date', 'status'], 'safe'],
-            [['department_id', 'doctor_id', 'fullname', 'phone'], 'required'],
+            [['department_id', 'fullname', 'phone'], 'required'],
             [['fullname'], 'string', 'max' => 120],
             [['phone'], 'string', 'max' => 20],
             [['department_id'], 'exist', 'skipOnError' => true, 'targetClass' => Department::className(), 'targetAttribute' => ['department_id' => 'id']],

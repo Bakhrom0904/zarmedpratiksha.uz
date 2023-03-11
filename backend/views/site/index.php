@@ -70,8 +70,7 @@ $this->title = Lx::t('backend', 'Admin panel - Zarmed Pratiksha Hospital');
           <table class="table table-hover thead-primary">
             <thead>
               <tr>
-                <th scope="col"><?=Lx::t('backend', 'Patient')?></th>
-                <th scope="col"><?=Lx::t('backend', 'Doctor')?></th>
+                <th scope="col"><?=Lx::t('backend', 'Patient')?></th>            
                 <th scope="col"><?=Lx::t('backend', 'Department')?></th>
                 <th scope="col"><?=Lx::t('backend', 'Date')?></th>
                 <th scope="col"><?=Lx::t('backend', 'Contact')?></th>
@@ -81,8 +80,7 @@ $this->title = Lx::t('backend', 'Admin panel - Zarmed Pratiksha Hospital');
             <tbody>
               <?php foreach($ap as $a):?>
                 <tr>
-                  <td class="ms-table-f-w"><?=$a->fullname?></td>
-                  <td><?php echo $a->doctor->{"last_name_$lang"}." ".$a->doctor->{"first_name_$lang"}." ".$a->doctor->{"middle_name_$lang"}?></td>
+                  <td class="ms-table-f-w"><?=$a->fullname?></td>     
                   <td><?=$a->department->{"name_$lang"}?></td>
                   <td><?=Yii::$app->formatter->asDate($a->date)?></td>
                   <td><?=$a->phone?></td>
