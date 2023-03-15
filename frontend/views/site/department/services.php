@@ -19,40 +19,38 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <?= OnlineHelp::widget(['social' => $this->params['social']])?><br>
-                    <iframe width="98%" height="315" src="https://www.youtube.com/embed/3IYMeFYay7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <br>
                     <?php
-                        if($department->id==36 || $department->id==7)
+                        if($department->id==1 || $department->id==7)
                         {
                             
                           echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/8FZSdRx0zew' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 
                         }
-                        elseif($department->id==1 || $department->id==42 || $department->id==43)
+                        elseif($department->id==2 || $department->id==8 || $department->id==11)
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/_vrGKpRD6Rs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==2 || $department->id==28 || $department->id==49)
+                        elseif($department->id==5 || $department->id==49 || $department->id==45)
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/3-7vw5jpYBg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==38 || $department->id==34 || $department->id==27 || $department->id==44)
+                        elseif($department->id==4 || $department->id==34 || $department->id==27 || $department->id==44)
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/MrBUHkb-9vM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==39)
+                        elseif($department->id==6) 
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/fCifFZh22Jw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==40 || $department->id==20)
+                        elseif($department->id==40 || $department->id==10)
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/HTZ-pklXxsk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==3)
+                        elseif($department->id==14)
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/WuzFmLiax4A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==73)
+                        elseif($department->id==20)
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/YpjrS57UuO8' title='Plastik jarrohlar, katta tajribaga ega mutaxassislar Adamyan Ruben Tatevosovich va Murodov Akmal' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
@@ -60,7 +58,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/k5t24Xk54fg' title='&quot;ZARMED PRATIKSHA Bog&#39;ishamol&quot; klinikasi pediatri Axmedova Xakima Jo‘rayevna' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
-                        elseif($department->id==37 || $department->id==33)
+                        elseif($department->id==3 || $department->id==33)
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/Et-s1maL64k' title='Доктор Ракшит  —  консультант-хирург-ортопед из Индии, в клинике &quot;ZARMED PRATIKSHA Bog&#39;ishamol&quot;' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
@@ -68,12 +66,10 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/ysK1zeIfySY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
-
-
-
-                    ?> 
-                   
-             
+                    ?>
+                    <br>
+                    <iframe width="98%" height="315" src="https://www.youtube.com/embed/3IYMeFYay7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
                 </div>
                 <div class="col-lg-8 col-md-8">
                     <div class="sv-detail-content about-detail mb-3">
