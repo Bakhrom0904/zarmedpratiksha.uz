@@ -119,6 +119,11 @@ use lajax\translatemanager\helpers\Language as Lx;
           <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Pages')?></span>
         </a>
       </li>
+      <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
+        <a href="<?=Url::to(['/job'])?>" aria-expanded="false" aria-controls="pages">
+          <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Jobs')?></span>
+        </a>
+      </li>
       <li class="menu-item ">
         <a href="#" class="has-chevron" data-toggle="collapse" data-target="#other" aria-expanded="false"
           aria-controls="other">
