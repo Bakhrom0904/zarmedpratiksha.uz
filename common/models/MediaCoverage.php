@@ -33,7 +33,7 @@ class MediaCoverage extends \yii\db\ActiveRecord
             [['link', 'title_uz', 'title_ru', 'title_en',  'img'], 'required'],
             [['link', 'img'], 'string'],
             [['title_uz', 'title_ru', 'title_en'], 'string', 'max' => 200],
-            [['description_uz', 'description_ru', 'description_eb'], 'string'],
+            [['description_uz', 'description_ru'], 'string'],
         ];
     }
 
