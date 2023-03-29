@@ -384,18 +384,6 @@ class SiteController extends Controller
 
                 return $this->redirect('/contact');
 
-                //  Yii::$app->mailer->compose()
-                //  ->setFrom("bahromislomov3376@gmail.com")
-                //  ->setTo('zarmedsayt@gmail.com')
-                //  ->setSubject("Sizga xabar yuborildi")
-                //  ->setHtmlBody("
-                //  <b>Name: $model->name<br><br>
-                //  Tel: $model->phone<br><br>
-                //  Email: $model->email<br><br>
-                //  Xabar: $model->message<b>
-                //  ")
-                //  ->send();
-
 
             } else {
                 \Yii::$app->session->setFlash(Alert::TYPE_ERROR, 'Something went wrong, try again later!');
