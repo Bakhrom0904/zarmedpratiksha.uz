@@ -29,8 +29,8 @@ class Seo extends \yii\db\ActiveRecord
     {
         return [
             [['page'], 'string', 'max' => 40],
-            [['desc'], 'string', 'max' => 160],
-            [['keyw'], 'string', 'max' => 120],
+            [['desc'], 'string', 'max' => 400],
+            [['keyw'], 'string', 'max' => 500],
         ];
     }
 
