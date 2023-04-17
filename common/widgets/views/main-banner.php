@@ -12,13 +12,18 @@ use yii\helpers\Url;
                     <div class="main-slide-image" style="background-image: url(<?= $item->img ?>);"></div>
                     <div class="container d-flex flex-column justify-content-between">
                         <div class="slide-contain">
-                            <h1 class="cl-white mt-2 wow fadeInDown"style="text-transform:uppercase"><?= $item->title ?><span style="color:#F19035">  -30%</span></h1>
+                            <h1 class="cl-white mt-2 wow fadeInDown"style="text-transform:uppercase"><?= $item->title ?></h1>
                             <h2 class="cl-white mt-2 wow fadeInDown"><?= $item->description ?></h2>
+                            <?php
+                            if($item->id==1){
+                            ?>
                             <div class="slide-btn mt-4">
                                 <a href="<?=Url::to(['checkup'])?>" class="btn bg-white text-blue"><?= Lx::t('frontend', 'Learn more') ?></a>
                             </div>
+                            <?php
+                            }
+                            ?>
                         </div>
-
                     </div>
                     <div class="overlay-banner">
                     </div>
