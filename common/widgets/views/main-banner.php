@@ -12,7 +12,7 @@ use yii\helpers\Url;
                     <div class="main-slide-image" style="background-image: url(<?= $item->img ?>);"></div>
                     <div class="container d-flex flex-column justify-content-between">
                         <div class="slide-contain">
-                            <h1 class="cl-white mt-2 wow fadeInDown"style="text-transform:uppercase"><?= $item->title ?></h1>
+                            <h1 class=" mt-2 wow fadeInDown"style="text-transform:uppercase;color:#F19035;"><?= $item->title ?></h1>
                             <h2 class="cl-white mt-2 wow fadeInDown"><?= $item->description ?></h2>
                             <?php
                             if($item->id==1){
