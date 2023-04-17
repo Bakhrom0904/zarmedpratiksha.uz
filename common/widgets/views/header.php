@@ -13,20 +13,6 @@ use yii\helpers\Url;
                     <li><span style="color: white"><i class="fa-sharp fa-solid fa-phone-volume"></i>  </span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
                     <li><span style="color: white">&nbsp; </span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone1']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
                 </ul>
-                <!-- <ul class="t-social">
-                    <li>
-                        <span class="ct-search-link"><a href="#"><i class="fas fa-search"></i></a></span>
-                    </li>
-                    <li class="pl-2">
-                        <a target="_blank" href="<?= $social['facebook']['value'] ?? '' ?>"><i class="<?= $social['facebook']['icon'] ?? '' ?>"></i></a>
-                    </li>
-                    <li class="pl-2">
-                        <a target="_blank" href="<?= $social['linkedin']['value'] ?? '' ?>"><i class="<?= $social['linkedin']['icon'] ?? '' ?>"></i></a>
-                    </li>
-                    <li class="pl-2">
-                        <a href="#" title="<?= Lx::t('frontend', 'Patient Login') ?>"><i class="fas fa-user-tie"></i></a>
-                    </li>
-                </ul> -->
                 <ul class="t-social">
                     <?= \lajax\languagepicker\widgets\LanguagePicker::widget([
                         'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_DROPDOWN,

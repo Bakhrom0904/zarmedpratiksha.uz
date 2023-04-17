@@ -26,6 +26,7 @@ use yii\helpers\Url;
                         <div class="ft-lists">
                             <ul class="d-flex flex-column">
                                 <li><a class="cursor-pointer"><?= Lx::t('frontend', 'Isaeva str 20, Samarkand, Uzbekistan') ?></a></li>
+                                <li><a href="tel:1063"><i class="fa-sharp fa-solid fa-phone-volume"></i>&nbsp1063</a></li>
                                 <li><a href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
                                 <li>
                                 <ul class="social-links-a square-link list-unstyled d-flex flex-row justify-content-center align-items-center">
@@ -46,9 +47,11 @@ use yii\helpers\Url;
                                         target="_blank"
                                         href="https://t.me/zarmedportal"><i class="fa-brands fa-telegram"></i></a>
                                 </li>
-                            </ul>
+                                    </ul>
                                 </li>
-                                <li><a href="mailto:<?= $social['email']['value'] ?? '' ?>"><?= $social['email']['value'] ?? '' ?></a></li>
+                                <li>
+                                    <a href="mailto:<?= $social['email']['value'] ?? '' ?>"><?= $social['email']['value'] ?? '' ?></a>
+                                </li>
                             </ul>
                         </div>
                         <form>
@@ -60,53 +63,12 @@ use yii\helpers\Url;
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 pt-md-3 pt-lg-0">
-                    
+                <div class="col-lg-5 col-md-6 pt-md-3 pt-lg-0">                   
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.0486070657944!2d66.94431071570048!3d39.64862060991711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d19fbf4b2d8d9%3A0x7349d93e43099d11!2sZARMED%20PRATIKSHA%20Bog&#39;ishamol!5e0!3m2!1sru!2s!4v1650259779786!5m2!1sru!2s"
                             width="100%" style="border:0; min-height: 330px" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>                  
                 </div>
-
-                <!-- <div class="col-lg-2 col-md-6 ps-lg-4 pt-md-3 pt-lg-0">
-                    <div class="ft-lists">
-                        <h3 class="cl-white"><?= Lx::t('frontend', 'Useful Links') ?></h3>
-                        <ul class="d-flex flex-column">
-                            <?php foreach ($menu as $item) {
-                                if ($item['submenu']) {
-                                    foreach ($item['submenu'] as $child) {
-                                        ?>
-                                        <li><a href="<?= Url::to([$child['route']]) ?>"><?= $child['name'] ?></a></li>
-                                    <?php }
-                                }
-                            } ?>
-                        </ul>
-                    </div>
-                </div> -->
-                <!-- <div class="col-lg-3 col-md-6 ps-lg-4 pt-md-3 pt-lg-0">
-                    <div class="ft-lists">
-                        <h3 class="cl-white"><?= Lx::t('frontend', 'Our Departments') ?></h3>
-                        <ul class="d-flex flex-column">
-                            <?php foreach ($departments as $department) {
-                                if (mb_strlen($department->name, 'UTF-8') < 40) { ?>
-                                <li>
-                                    <?= Html::a($department->name, Url::to(['department-services', 'id' => $department->id]), ['class' => 'text-capitalize']) ?>
-                                </li>
-                            <?php } } ?>
-                        </ul>
-                    </div>
-                </div> -->
-                
             </div>
-        </div>
-    </div>
-    <div class="bg-orange p-4 row justify-content-end m-0">
-        <div class="col-md-3 text-white small">
-            <!-- <span>
-                <?= Lx::t('frontend', 'Powered by') ?>:
-            </span>
-            <a href="https://t.me/Bahrom_Islomov">
-                <i class="fa fa-cloud-bolt"></i> Telegram</a> -->
         </div>
     </div>
 </footer>
