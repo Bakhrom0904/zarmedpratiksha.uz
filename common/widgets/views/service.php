@@ -13,7 +13,7 @@ use yii\helpers\Url;
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="<?= Url::to(['department-services?id=1']) ?>">
+                <a href="<?= Url::to(['department-services?id=2']) ?>">
                     <div class="service-list bg-white bx-shadow">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-brain"></i>
@@ -27,7 +27,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['department-services?id=36']) ?>">
+                <a href="<?= Url::to(['department-services?id=1']) ?>">
                     <div class="service-list bg-white bx-shadow mb-3">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-heartbeat"></i>
@@ -41,7 +41,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['department-services?id=38']) ?>">
+                <a href="<?= Url::to(['department-services?id=4']) ?>">
                     <div class="service-list bg-white bx-shadow">
                         <div class="sv-icon mb-3">
                             <i class="fas fa-star-of-life"></i>
@@ -55,7 +55,7 @@ use yii\helpers\Url;
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="<?= Url::to(['department-services?id=3']) ?>">
+                <a href="<?= Url::to(['department-services?id=14']) ?>">
                     <div class="service-list bg-white bx-shadow mb-0">
                         <div class="sv-icon mb-3">
                         <i class="fa-solid fa-house-medical"></i>
