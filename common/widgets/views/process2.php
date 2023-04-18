@@ -12,11 +12,11 @@ $til=Yii::$app->language;
                 <?php
                 if($til=='ru')
                 {?>
-                    <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/hNeAtqtcUsA" title="В честь священного месяца Рамадан в клинике &quot;ZARMED PRATIKSHA Bog’ishamol&quot; снижение цен!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/2LzyBVy2CfM" title="МРТ со скидкой в ночное время ! Без очередей и без ожидания, по записи!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <?php
                 }
                 else{?>
-                    <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/65vCUnThhiY" title="Мuqaddas Ramazon oyi munosabati bilan &quot;ZARMED PRATIKSHA Bog&#39;ishamol&quot; klinikasida chegirmalar!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/-C9zM0cHkB4" title="МРТ чегирмаси билан!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <?php
                 }
                 ?>

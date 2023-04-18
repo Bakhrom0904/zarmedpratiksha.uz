@@ -62,6 +62,10 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA")." | ".Yii::t('frontend', '
                         {
                              echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/Et-s1maL64k' title='Доктор Ракшит  —  консультант-хирург-ортопед из Индии, в клинике &quot;ZARMED PRATIKSHA Bog&#39;ishamol&quot;' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
                         }
+                        elseif($department->id==9)
+                        {
+                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/wxtNHa-uosM' title='Терапевт Елена Кимовна отвечает на часто задаваемые вопросы пациентов .' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+                        }
                         else
                         {
                             echo "<iframe width='98%' height='315' src='https://www.youtube.com/embed/ysK1zeIfySY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";

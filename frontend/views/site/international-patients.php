@@ -17,18 +17,12 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
 <section class="blog-main blg-listings">
     <div class="container">
         <div class="sc-title-two text-center">
-            <!-- <h4 class="cl-green text-uppercase"><?= Lx::t('frontend', 'International Patients') ?></h4> -->
             <h2 style="color:#283779"><?= Lx::t('frontend', 'International department') ?></h2>
         </div>
         <div >
             <div class="mb-2">
                 <div class="text-right" id="google_translate_element"></div>
             </div>
-            <!-- <?= $page->content ?> -->
-            <!-- <div class="row">
-                    <img src="https://www.zarmedpratiksha.uz/uploads/images/Rasm.jpg?_t=1671169918" alt="123" width="90%">
-            </div> -->
-
             <div class="row mt-2">
                 <div class="col-lg-7 col-12">
                         <img src="https://www.zarmedpratiksha.uz/uploads/images/wpratiksha.jpg?_t=1671173944" width="96%">
@@ -63,7 +57,6 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                          <a href="/detail?id=1"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Организация видео-консультаций с индийскими специалистами: в удобное для вас время, онлайн, без ожидания в очереди и с уверенностью в опыте и квалификации специалиста</p></a>
                                         <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
                    </div>
-
                 <?php
                  }
                  ?>
@@ -71,11 +64,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
             </div>
         </div>
             <div>
-
-                
-
             </div>   
-
     </div>
 </section>
 

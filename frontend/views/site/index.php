@@ -25,14 +25,12 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA");
 <div>
     <?= MainBanner::widget(['items' => $banners]) ?>
     <?= Aboutus::widget() ?>
-    <?= CaseTable::widget(['social' => $this->params['social']]) ?>
     <?= Process2::widget() ?>
+    <?= CaseTable::widget(['social' => $this->params['social']]) ?>
     <?= Service::widget() ?>
     <?= Youtube::widget() ?>
-    <!-- <?= Process::widget() ?> -->
     <?= Emergency::widget(['social' => $this->params['social']]) ?>
     <?= Affiliation::widget(['certificates' => $this->params['certificates']]) ?>
-    <!-- <?= Service2::widget() ?> -->
     <section class="team">
         <div class="container">
             <div class="sc-title-two text-center">
