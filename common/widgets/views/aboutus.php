@@ -10,13 +10,18 @@ $til=Yii::$app->language;
             <div class="col-lg-5 col-md-6 pe-lg-5">
                 <div class="about-img-2">
                     <?php
-                    if($til=='ru')
+                    if($til == 'ru')
                     {?>
-                            <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Xazarikaru.jpg?_t=1682329815" alt="Foto"></a>
-                    <?php}
-                    else{?>
-                            <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/xazarikauz.jpg?_t=1682329865" alt="Foto"></a>
-                    <?php}?>
+                        <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Xazarikaru.jpg?_t=1682329815" alt="Foto"></a>
+                    <?php
+                    }
+                    else
+                    {
+                    ?>
+                        <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/xazarikauz.jpg?_t=1682329865" alt="Foto"></a>
+                    <?php
+                    }
+                    ?>
                     
                 </div>
             </div>
