@@ -9,7 +9,15 @@ $til=Yii::$app->language;
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6 pe-lg-5">
                 <div class="about-img-2">
-                    <a href="/"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Zarmed.jpg?_t=1676371834" alt="Foto"></a>
+                    <?php
+                    if($til=='ru')
+                    {?>
+                            <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/Xazarikaru.jpg?_t=1682329815" alt="Foto"></a>
+                    <?php}
+                    else{?>
+                            <a href="https://zarmedpratiksha.uz/detail?id=21"><img src="https://www.zarmedpratiksha.uz/uploads/Aksiyalar/xazarikauz.jpg?_t=1682329865" alt="Foto"></a>
+                    <?php}?>
+                    
                 </div>
             </div>
             <div class="col-lg-7 col-md-6" style="background-image: url('https://www.zarmedpratiksha.uz/uploads/banner/Order-logo.jpg?_t=1672745688');background-size: 400px 350px;background-repeat: no-repeat;background-position: right;background-blend-mode: lighten;">
