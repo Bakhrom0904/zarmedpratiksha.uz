@@ -105,7 +105,7 @@ class SiteController extends Controller
         }
         return $this->render('index', compact('doctors', 'banners'));
     }
-
+ 
     public function actionNews()
     {
         $m=News::find();
