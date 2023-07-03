@@ -15,6 +15,7 @@ use yii\web\UploadedFile;
  */
 class NewsController extends Controller
 {
+    public $layout = 'template'; 
     /**
      * @inheritDoc
      */

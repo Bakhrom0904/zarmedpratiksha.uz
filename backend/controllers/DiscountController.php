@@ -15,6 +15,7 @@ use yii\web\UploadedFile;
  */
 class DiscountController extends Controller
 {
+    public $layout = 'template'; 
     /**
      * @inheritDoc
      */
