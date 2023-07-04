@@ -48,7 +48,7 @@ AppAsset::register($this);
 ]); ?>
         <li class="ms-nav-item ms-nav-user dropdown">
           <a href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img
-              class="ms-user-img ms-img-round float-right" src="/admin/img/dashboard/doctor-3.jpg" alt="people"> </a>
+              class="ms-user-img ms-img-round float-right" src="https://www.zarmedpratiksha.uz/uploads/Adminstratsiya/Green-card-2023-Electronic-Diversity-Lottery.jpg?_t=1671440986" alt="people"> </a>
           <ul class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
             <li class="dropdown-menu-header">
               <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled"><?=Yii::t('backend', 'Welcome')?>, <?=Yii::$app->user->identity->username?></span></h6>

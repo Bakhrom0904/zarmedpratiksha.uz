@@ -40,6 +40,7 @@ class Appointment extends \yii\db\ActiveRecord
             [['department_id', 'fullname', 'phone'], 'required'],
             [['fullname'], 'string', 'max' => 120],
             [['phone'], 'string', 'max' => 20],
+            ['phone','match','pattern'=>'/[0-9+]+$/'],
             [['department_id'], 'exist', 'skipOnError' => true, 'targetClass' => Department::className(), 'targetAttribute' => ['department_id' => 'id']],
             [['doctor_id'], 'exist', 'skipOnError' => true, 'targetClass' => Doctor::className(), 'targetAttribute' => ['doctor_id' => 'id']],
             // [['time_id'], 'exist', 'skipOnError' => true, 'targetClass' => Time::className(), 'targetAttribute' => ['time_id' => 'id']],
