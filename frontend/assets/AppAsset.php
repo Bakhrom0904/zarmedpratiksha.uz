@@ -32,7 +32,7 @@ class AppAsset extends AssetBundle
         'js/custom-nav.js',
         'js/magnify.min.js',
         'js/custom.js',
-        'js/google-translate.js?cb=googleTranslateElementInit',
+        // 'js/google-translate.js?cb=googleTranslateElementInit',
     ];
     public $depends = [
         'yii\web\YiiAsset',
