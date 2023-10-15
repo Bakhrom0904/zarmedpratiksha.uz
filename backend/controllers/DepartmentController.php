@@ -44,7 +44,8 @@ class DepartmentController extends Controller
         $lang = \Yii::$app->language;
         $searchModel = new DepartmentSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
-        $departments = Department::find()->all();
+        $departments = Department::find();
+        $query = $departments->all()
         $deps = [];
         $deps_service = [];
         foreach($departments as $dp){

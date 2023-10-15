@@ -9,7 +9,7 @@ $til=Yii::$app->language;
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-3">
-                <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/MkDxDc_6SdY" title="A&#39;zolarni saqlash bo‘yicha jarrohlik amaliyoti: chap buyrakning laparoskopik rezektsiyasi." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/R8QZi2U3OWk" title="umurtqa pog‘onasining turli qismlaridagi churralarni" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col-lg-6 mb-3">
                 <iframe style="width: 100%; margin:2px auto;" height="350" src="https://www.youtube.com/embed/GrcFU52486c" title="Бариартрия в клинике &quot;Zarmed Pratiksha Bogoishamol&quot;. Хирург Саидов Фарход Хакимович ." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

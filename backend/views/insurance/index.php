@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'attribute' => 'img',
                             'format' => 'raw',
                             'value' => function($model){
-                                return "<img src='$model->img' width='200px' class='img-fluid'>";
+                                return "<img src='/frontend/uploads/department/<?=$model->img;?>' width='200px' class='img-fluid'>";
                             } 
                         ],
                         [

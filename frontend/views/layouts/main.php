@@ -34,7 +34,7 @@ AppAsset::register($this);
             </script>
     </head>
     <body class="home-2">
-    <?php $this->beginBody() ?>
+    <?php $this->beginBody() ?> 
 
         <?= Preloader::widget() ?>
         <?= Header::widget(['menu' => $this->params['menu'], 'social' => $this->params['social']]) ?>
