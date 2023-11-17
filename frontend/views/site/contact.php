@@ -8,6 +8,7 @@ use lajax\translatemanager\helpers\Language as Lx;
 use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html;
 use yii\helpers\Url;
+use yii\captcha\Captcha;
 
 $social = $this->params['social'];
 $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend', 'Contacts');
@@ -70,6 +71,9 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                 <?= $form->field($model, 'message', [
                     'template' => '<div class="form-outline mb-3">{input}</div>'
                 ])->textarea(['class' => 'form-control bg-sfgrey-2 border border-light-c', 'placeholder' => Lx::t('frontend', 'Message'), 'rows' => 4])->label('') ?>
+                <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
+                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                ]) ?>
 
                 <?= Html::submitButton(Lx::t('frontend', 'Send Message'), ['class' => 'btn bg-blue']) ?>
                 <?php ActiveForm::end(); ?>

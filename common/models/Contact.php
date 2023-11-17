@@ -16,6 +16,7 @@ use Yii;
  */
 class Contact extends \yii\db\ActiveRecord
 {
+    public $verifyCode;
     /**
      * {@inheritdoc}
      */
@@ -35,6 +36,7 @@ class Contact extends \yii\db\ActiveRecord
             [['email'], 'string', 'max' => 60],
             [['name'], 'string', 'max' => 120],
             [['phone'], 'string', 'max' => 20],
+            ['verifyCode', 'captcha'],
         ];
     }
 
