@@ -45,8 +45,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Glycated hemoglobin') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">894 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">625 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">1 065 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">745 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
                   
 
@@ -83,11 +83,11 @@ use lajax\translatemanager\helpers\Language as Lx;
 
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">965 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">675 000  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">1 091 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">765 000  <?= Lx::t('frontend', 'sum') ?></h3>
                                 <p style="color:#283779">(<?= Lx::t('frontend', 'with colonoscopy') ?>)</p><br>
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">675 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">472 000  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">815 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">571 000  <?= Lx::t('frontend', 'sum') ?></h3>
                                 <p style="color:#283779">(<?= Lx::t('frontend', 'without colonoscopy') ?>)</p>                      
                 </div>
                 
@@ -124,8 +124,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Serum nitrogen') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">591 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">413 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">756 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">530 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
 
                 <!-- Children -->
@@ -149,8 +149,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                                 <h4 style="color:#283779"><?= Lx::t('frontend', 'Ultrasound scan of the abdomen') ?></h4>
 
 
-                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">584 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
-                                <h3 style="color:#F19035">410 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
+                                <h3 style="color:#F19035"><span style="text-decoration:line-through;">687 000</span>  <?= Lx::t('frontend', 'sum') ?></h3>
+                                <h3 style="color:#F19035">481 000  <?= Lx::t('frontend', 'sum') ?></h3>                     
                 </div>
    
             </div>
