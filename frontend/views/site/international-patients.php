@@ -39,7 +39,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                          <a href="/detail?id=2"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Bemorlarni onlayn kuzatib borish</p></a>
                                          <a href="/detail?id=2"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Tayinlangan onlayn davolanishni kuzatib borish</p></a>
                                          <a href="/detail?id=1"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;Hindistonlik mutaxassislar bilan videoko'riklar tashkil etish: siz uchun qulay vaqtda, onlayn, navbatsiz va mutaxassis tajribasi va malakasiga ishonch bilan. Onlayn ko'rik - bu shifokor bilan videokonferentsiya orqali muloqot qilishdir. Bu jarayon tibbiy xulosalar va diagnostika natijalari asosida amalga oshiriladi</p></a>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998951730209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 95 173 02 09</a></p>                   
                 </div>
                 <?php
                 }
@@ -55,7 +55,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                                          <a href="/detail?id=2"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Онлайн-наблюдение пациентов</p></a>
                                          <a href="/detail?id=2"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp;  Мониторинг назначенного онлайн-лечения</p></a>
                                          <a href="/detail?id=1"><p style="color:#283779 ;font-weight: bold;font-size:20px;"><i class="fa-solid fa-circle-check"></i>&nbsp; Организация видео-консультаций с индийскими специалистами: в удобное для вас время, онлайн, без ожидания в очереди и с уверенностью в опыте и квалификации специалиста</p></a>
-                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998979360209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 97 936 02 09</a></p>                   
+                                        <p style="color:#283779 ;font-weight: bold;font-size:20px;"><a href="tel:+998951730209"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+998 95 173 02 09</a></p>                   
                    </div>
                 <?php
                  }
