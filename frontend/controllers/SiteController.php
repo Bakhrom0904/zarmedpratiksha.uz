@@ -635,11 +635,20 @@ class SiteController extends Controller
         $d=Discount::findOne(["id"=>$id]);
         return $this->render("discounts",["d"=>$d]);
     }
+    
+   public function actionBukhara()
+   {
+     return $this->render("filiali/bukhara");
+   }
 
-    public function actionKitob()
-    {
-        $this->layout = 'blank';
-        return $this->render("kitob");
-    }
+   public function actionKarshi()
+   {
+     return $this->render("filiali/karshi");
+   }
+
+   public function actionShakhrisabz()
+   {
+     return $this->render("filiali/shakhrisabz");
+   }
     
 }
