@@ -14,6 +14,25 @@
                         Медицинский центр "Zarmed" гордится своими возможностями в области точной диагностики, что позволяет нам предоставлять нашим пациентам наивысший уровень медицинского обслуживания.<br><br>
                         Адрес : г. Бухара, ул. Намозгох, 261<br>
                         Тел : +998 65 226 51 51
+                       <?php elseif(Yii::$app->language == 'en'): ?>
+                           Zarmed Medical Center Zarmed in Bukhara is a modern medical institution that specializes in providing
+                           high-quality medical care and accurate diagnostic tests. Our center is equipped with advanced devices
+                           that provide accurate results of examinations and diagnostics.<br>
+                           One of the key devices used in our center is a magnetic resonance imaging machine ( Siemens MRI with
+                           1.5 Tesla power), which provides high-definition images and allows you to get detailed information about
+                           the state of internal organs and tissues. This device allows you to detect pathologies at the earliest
+                           stages of development.<br>
+                           In addition, we use MultispiralComputer Тtomography (MSCT) of the German brand Siemens, which
+                           provides high scanning speed and accurate results, which allows you to detect even the smallest changes
+                           in tissues and organs with minimal damage from radiation.<br>
+                           Ultrasound diagnostics( US), EEG AND HOLTER EEG (1,2 x hour long , night and diurnal),echocardiography
+                           (ECG) and much more are available to our patients in Bukhara and nearby cities.<br>
+                           To perform accurate laboratory tests, we have equipped our center with modern equipment, such as
+                           automated blood analyzers, biochemical analyzers and other high-precision devices.<br>
+                           Zarmed Medical Centerisproud of its capabilities in the field of accurate diagnostics, which allows us to
+                           provide our patients with the highest level of medical care.<br><br>
+                           261 Namozgoh St., Bukhara:<br>
+                           +998 65 226 51 51
                       <?php else: ?>
                         “Zarmed ” tibbiyot markazi yuqori sifatli tibbiy xizmat ko‘rsatish va aniq diagnostika tekshiruvlarini o‘tkazishga ixtisoslashgan zamonaviy tibbiyot muassasasidir. Markazimiz aniq tekshiruv va diagnostika natijalarini beruvchi ilg‘or uskunalar bilan jihozlangan.<br><br>
                         Markazimizda foydalaniladigan asosiy qurilmalardan biri magnit-rezonans tomografiya skaneridir ( 1,5 Tesla quvvatga ega MRT Siemens ), u yuqori aniqlikdagi tasvirlarni beradi va ichki organlar va to'qimalarning holati haqida batafsil ma'lumot olish imkonini beradi. Ushbu qurilma rivojlanishning dastlabki bosqichlarida patologiyalarni aniqlash imkonini beradi.<br><br>

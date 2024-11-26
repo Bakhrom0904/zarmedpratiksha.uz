@@ -12,6 +12,22 @@
                         Медицинский центр 'Zarmed' стремится к тому, чтобы каждый пациент получил профессиональное и заботливое отношение, а также самые современные методы лечения и диагностики для достижения оптимальных результатов. Наша цель - обеспечить здоровье и благополучие каждого пациента, обратившегося к нам.<br><br>
                         Адрес : г. Карши, ул. И. Каримова, 474<br>
                         Тел : +998 91 219 00 35  +998 95 681 00 35
+                       <?php elseif(Yii::$app->language == 'en'): ?>
+                           The Zarmed Diagnostic CenterZarmedin Shakhrisabz is an advanced medical facility where modern
+                           equipment and highly qualified specialists come together to help patients at any moment. Our center is
+                           equipped with the latest medical devices that provide accurate diagnostic tests to detect various
+                           diseases.<br>
+                           Magnetic resonance imaging (MRI) and multislice computed tomography (MSCT) enable high-precision
+                           scans of organs and tissues, providing fast and accurate diagnosis. Our specialists, who have extensive
+                           experience and professional skills, are ready to provide qualified assistance to patients in any situation.<br>
+                           Our laboratory center is equipped with state-of-the-art equipment for performing a variety of tests,
+                           which allows you to quickly and accurately determine the patient's health status. We value every patient
+                           and guarantee an individual approach to each case, providing a high standard of medical care.<br>
+                           The Zarmed Diagnostic CenterZarmedin Shakhrisabz strives to ensure that every patient receives timely
+                           and high-quality medical care, and our team of specialists is ready to help you at any time, providing care
+                           and support at every stage of treatment.<br><br>
+                           Shakhrisabz, Ipak Yuli str., 108<br>
+                           +998 95 505 77 00
                       <?php else: ?>
                         Qarshi shahridagi “ Zarmed ” tibbiyot markazi zamonaviy tibbiyot maskani bo‘lib, keng ko‘lamli yuqori sifatli tibbiy xizmat ko‘rsatadi. Markazimiz ilg‘or uskunalar bilan jihozlangan bo‘lib, bemorlarga yuqori sifatli va samarali tibbiy yordam ko‘rsatishga tayyor bo‘lgan tajribali tibbiyot xodimlariga ega.<br><br>
                         “Zarmed ” tibbiyot markazi tibbiy mutaxassisliklarning to‘liq spektrini taqdim etadi, bizning mutaxassislarimiz katta tajribaga ega va eng yaxshi tibbiy yordam ko‘rsatish uchun o‘z malakalarini muntazam oshirib boradilar.<br><br>

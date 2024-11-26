@@ -12,6 +12,22 @@
                         Диагностический центр "Zarmed" в городе Шахрисабз стремится к тому, чтобы каждый пациент получил своевременное и качественное медицинское обслуживание, а наша команда специалистов готова помочь вам в любую минуту, обеспечивая заботу и поддержку на каждом этапе лечения.<br><br>
                         Адрес : г. Шахрисабз, ул. Ипак Йули, 108<br>
                         Тел : +998 95 505 77 00
+                       <?php elseif(Yii::$app->language == 'en'): ?>
+                           The Zarmed Diagnostic Center Zarmed in Shakhrisabz is an advanced medical facility where modern
+                           equipment and highly qualified specialists come together to help patients at any moment. Our center is
+                           equipped with the latest medical devices that provide accurate diagnostic tests to detect various
+                           diseases.<br>
+                           Magnetic resonance imaging (MRI) and multislice computed tomography (MSCT) enable high-precision
+                           scans of organs and tissues, providing fast and accurate diagnosis. Our specialists, who have extensive
+                           experience and professional skills, are ready to provide qualified assistance to patients in any situation.<br>
+                           Our laboratory center is equipped with state-of-the-art equipment for performing a variety of tests,
+                           which allows you to quickly and accurately determine the patient's health status. We value every patient
+                           and guarantee an individual approach to each case, providing a high standard of medical care.<br>
+                           The Zarmed Diagnostic CenterZarmedin Shakhrisabz strives to ensure that every patient receives timely
+                           and high-quality medical care, and our team of specialists is ready to help you at any time, providing care
+                           and support at every stage of treatment.<br><br>
+                           Shakhrisabz, Ipak Yuli str., 108<br>
+                           +998 95 505 77 00
                       <?php else: ?>
                         Shahrisabz shahridagi “ Zarmed ” diagnostika markazi zamonaviy asbob-uskunalar, yuqori malakali mutaxassislar birlashib, bemorlarga har daqiqada yordam beradigan ilg‘or tibbiyot muassasasidir. Markazimiz turli kasalliklarni aniqlash uchun aniq diagnostika tekshiruvlarini o‘tkazish imkonini beruvchi eng zamonaviy tibbiy asboblar bilan jihozlangan.<br><br>
                         Magnit-rezonans tomografiya (MRT) va multispiral kompyuter tomografiyasi (MSKT) organlar va to'qimalarni yuqori aniqlikdagi skanerlash imkonini beradi, bu tez va aniq tashxis qo'yish imkonini beradi. Katta tajriba va professional mahoratga ega bo'lgan mutaxassislarimiz har qanday vaziyatda bemorlarga malakali yordam ko'rsatishga tayyor.<br><br>
