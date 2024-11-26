@@ -12,7 +12,7 @@
                         Медицинский центр 'Zarmed' стремится к тому, чтобы каждый пациент получил профессиональное и заботливое отношение, а также самые современные методы лечения и диагностики для достижения оптимальных результатов. Наша цель - обеспечить здоровье и благополучие каждого пациента, обратившегося к нам.<br><br>
                         Адрес : г. Карши, ул. И. Каримова, 474<br>
                         Тел : +998 91 219 00 35  +998 95 681 00 35
-                       <?php elseif(Yii::$app->language == 'en-GB'): ?>
+                       <?php elseif(Yii::$app->language == 'en'): ?>
                            'Zarmed' Medical Center in Karshi is a modern medical facility that provides a wide range of high-quality
                            medical services. Our center is equipped with advanced equipment and has experienced medical
                            personnel who are ready to provide patients with high-quality and effective medical care.<br>
