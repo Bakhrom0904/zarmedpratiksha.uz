@@ -11,7 +11,7 @@ use yii\helpers\Url;
                 <ul class="t-addres">
                     <li class="pr-2"><i class="far fa-clock"></i> <?= Lx::t('frontend', 'Open Hours: 24/7') ?></li>
                     <li><span style="color: white"><i class="fa-sharp fa-solid fa-phone-volume"></i>  </span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone']['value'] ?? '' ?>"><?= $social['phone']['value'] ?? '' ?></a></li>
-                    <li><span style="color: white">&nbsp; </span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone1']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
+                    <li><span style="color: white">&nbsp;<i class="fa-sharp fa-solid fa-phone-volume"></i>  </span>&nbsp;<a class="m-0 cl-white" href="tel:<?= $social['phone1']['value'] ?? '' ?>"><?= $social['phone1']['value'] ?? '' ?></a></li>
                 </ul>
                 <ul class="t-social">
                     <?= \lajax\languagepicker\widgets\LanguagePicker::widget([
