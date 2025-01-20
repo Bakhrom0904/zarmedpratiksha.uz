@@ -126,11 +126,6 @@ use lajax\translatemanager\helpers\Language as Lx;
         </a>
         <ul id="other" class="collapse" aria-labelledby="other" data-parent="#side-nav-accordion">
       <li>
-        <a href="<?=Url::to(['/slider'])?>">
-          <?=Lx::t('backend', 'Sliders')?>
-        </a>
-      </li>
-      <li>
         <a href="<?=Url::to(['/social'])?>">
           <?=Lx::t('backend', 'Social')?>
         </a>
@@ -150,7 +145,12 @@ use lajax\translatemanager\helpers\Language as Lx;
           <?=Lx::t('backend', 'About page')?>
         </a>
       </li>
-      <li>
+            <li>
+                <a href="<?=Url::to(['/slider'])?>">
+                    <?=Lx::t('backend', 'Sliders')?>
+                </a>
+            </li>
+            <li>
         <a href="<?=Url::to(['/seo'])?>">
           <?=Lx::t('backend', 'SEO')?>
         </a>
