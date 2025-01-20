@@ -74,8 +74,8 @@ use lajax\translatemanager\helpers\Language as Lx;
                 <span><i class="fas fa-stethoscope"></i><?=Lx::t('backend', 'Doctors')?></span>
             </a>
         </li>
-        <li class="menu-item <?=Yii::$app->controller->id == 'event' ? 'menu-active' : ''?>">
-            <a href="<?=Url::to(['/discount'])?>" aria-expanded="false" aria-controls="event">
+        <li class="menu-item <?=Yii::$app->controller->id == 'discount' ? 'menu-active' : ''?>">
+            <a href="<?=Url::to(['/discount'])?>" aria-expanded="false" aria-controls="discount">
                 <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Акции и скидки')?></span>
             </a>
         </li>
@@ -109,16 +109,16 @@ use lajax\translatemanager\helpers\Language as Lx;
           <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'Media Coverages')?></span>
         </a>
       </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/job'])?>" aria-expanded="false" aria-controls="pages">
-          <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Jobs')?></span>
-        </a>
-      </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'google-ads' ? 'menu-active' : ''?>">
             <a href="<?=Url::to(['/google-ads'])?>" aria-expanded="false" aria-controls="menus">
                 <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Google ads')?></span>
             </a>
         </li>
+      <li class="menu-item <?=Yii::$app->controller->id == 'job' ? 'menu-active' : ''?>">
+        <a href="<?=Url::to(['/job'])?>" aria-expanded="false" aria-controls="job">
+          <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Jobs')?></span>
+        </a>
+      </li>
       <li class="menu-item ">
         <a href="#" class="has-chevron" data-toggle="collapse" data-target="#other" aria-expanded="false"
           aria-controls="other">
