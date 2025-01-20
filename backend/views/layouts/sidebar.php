@@ -69,29 +69,29 @@ use lajax\translatemanager\helpers\Language as Lx;
           <span><i class="fas fa-sitemap"></i><?=Lx::t('backend', 'Departments')?></span>
         </a>
       </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'service' ? 'menu-active' : ''?>">
+        <li class="menu-item <?=Yii::$app->controller->id == 'doctor' ? 'menu-active' : ''?>">
+            <a href="<?=Url::to(['/doctor'])?>" aria-expanded="false" aria-controls="doctor">
+                <span><i class="fas fa-stethoscope"></i><?=Lx::t('backend', 'Doctors')?></span>
+            </a>
+        </li>
+        <li class="menu-item <?=Yii::$app->controller->id == 'event' ? 'menu-active' : ''?>">
+            <a href="<?=Url::to(['/discount'])?>" aria-expanded="false" aria-controls="event">
+                <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Акции и скидки')?></span>
+            </a>
+        </li>
+        <li class="menu-item <?=Yii::$app->controller->id == 'service' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/service'])?>" aria-expanded="false" aria-controls="service">
           <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Services')?></span>
         </a>
       </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'doctor' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/doctor'])?>" aria-expanded="false" aria-controls="doctor">
-          <span><i class="fas fa-stethoscope"></i><?=Lx::t('backend', 'Doctors')?></span>
-        </a>
-      </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'news' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/news'])?>" aria-expanded="false" aria-controls="news">
-          <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'News')?></span>
-        </a>
-      </li>
+        <li class="menu-item <?=Yii::$app->controller->id == 'contact' ? 'menu-active' : ''?>">
+            <a href="<?=Url::to(['/contact'])?>" aria-expanded="false" aria-controls="contact">
+                <span><i class="far fa-comment-dots"></i><?=Lx::t('backend', 'Contacts')?></span>
+            </a>
+        </li>
        <li class="menu-item <?=Yii::$app->controller->id == 'gallery' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/gallery'])?>" aria-expanded="false" aria-controls="gallery">
           <span><i class="fas fa-camera"></i><?=Lx::t('backend', 'Galleries')?></span>
-        </a>
-      </li>
-       <li class="menu-item <?=Yii::$app->controller->id == 'contact' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/contact'])?>" aria-expanded="false" aria-controls="contact">
-          <span><i class="far fa-comment-dots"></i><?=Lx::t('backend', 'Contacts')?></span>
         </a>
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'menu' ? 'menu-active' : ''?>">
@@ -107,11 +107,6 @@ use lajax\translatemanager\helpers\Language as Lx;
       <li class="menu-item <?=Yii::$app->controller->id == 'article' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/article'])?>" aria-expanded="false" aria-controls="article">
           <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'Articles')?></span>
-        </a>
-      </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'event' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/discount'])?>" aria-expanded="false" aria-controls="event">
-          <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Discounts')?></span>
         </a>
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
