@@ -81,7 +81,7 @@ use lajax\translatemanager\helpers\Language as Lx;
         </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'branch' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/branch'])?>" aria-expanded="false" aria-controls="service">
-          <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Services')?></span>
+          <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Филиалы')?></span>
         </a>
       </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'contact' ? 'menu-active' : ''?>">
@@ -107,11 +107,6 @@ use lajax\translatemanager\helpers\Language as Lx;
       <li class="menu-item <?=Yii::$app->controller->id == 'media-coverage' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/media-coverage'])?>" aria-expanded="false" aria-controls="article">
           <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'Media Coverages')?></span>
-        </a>
-      </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/pages'])?>" aria-expanded="false" aria-controls="pages">
-          <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Pages')?></span>
         </a>
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
@@ -145,7 +140,12 @@ use lajax\translatemanager\helpers\Language as Lx;
           <?=Lx::t('backend', 'Certificates')?>
         </a>
       </li>
-      <li>
+            <li>
+                <a href="<?=Url::to(['/pages'])?>">
+                    <?=Lx::t('backend', 'Pages')?>
+                </a>
+            </li>
+            <li>
         <a href="<?=Url::to(['/about'])?>">
           <?=Lx::t('backend', 'About page')?>
         </a>
