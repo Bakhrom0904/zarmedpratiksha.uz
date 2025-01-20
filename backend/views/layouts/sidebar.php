@@ -79,11 +79,11 @@ use lajax\translatemanager\helpers\Language as Lx;
                 <span><i class="fas fa-calendar"></i><?=Lx::t('backend', 'Акции и скидки')?></span>
             </a>
         </li>
-        <li class="menu-item <?=Yii::$app->controller->id == 'service' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/service'])?>" aria-expanded="false" aria-controls="service">
-          <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Services')?></span>
-        </a>
-      </li>
+<!--        <li class="menu-item --><?php //=Yii::$app->controller->id == 'service' ? 'menu-active' : ''?><!--">-->
+<!--        <a href="--><?php //=Url::to(['/service'])?><!--" aria-expanded="false" aria-controls="service">-->
+<!--          <span><i class="material-icons fs-16">widgets</i>--><?php //=Lx::t('backend', 'Services')?><!--</span>-->
+<!--        </a>-->
+<!--      </li>-->
         <li class="menu-item <?=Yii::$app->controller->id == 'contact' ? 'menu-active' : ''?>">
             <a href="<?=Url::to(['/contact'])?>" aria-expanded="false" aria-controls="contact">
                 <span><i class="far fa-comment-dots"></i><?=Lx::t('backend', 'Contacts')?></span>
@@ -104,11 +104,11 @@ use lajax\translatemanager\helpers\Language as Lx;
           <span><i class="fas fa-shield-alt"></i><?=Lx::t('backend', 'Insurances')?></span>
         </a>
       </li>
-      <li class="menu-item <?=Yii::$app->controller->id == 'article' ? 'menu-active' : ''?>">
-        <a href="<?=Url::to(['/article'])?>" aria-expanded="false" aria-controls="article">
-          <span><i class="fas fa-newspaper"></i><?=Lx::t('backend', 'Articles')?></span>
-        </a>
-      </li>
+<!--      <li class="menu-item --><?php //=Yii::$app->controller->id == 'article' ? 'menu-active' : ''?><!--">-->
+<!--        <a href="--><?php //=Url::to(['/article'])?><!--" aria-expanded="false" aria-controls="article">-->
+<!--          <span><i class="fas fa-newspaper"></i>--><?php //=Lx::t('backend', 'Articles')?><!--</span>-->
+<!--        </a>-->
+<!--      </li>-->
       <li class="menu-item <?=Yii::$app->controller->id == 'pages' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/pages'])?>" aria-expanded="false" aria-controls="pages">
           <span><i class="fas fa-file"></i><?=Lx::t('backend', 'Pages')?></span>
