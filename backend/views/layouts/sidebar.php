@@ -66,7 +66,7 @@ use lajax\translatemanager\helpers\Language as Lx;
       </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'department' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/department'])?>" aria-expanded="false" aria-controls="department">
-          <span><i class="fas fa-sitemap"></i><?=Lx::t('backend', 'Departments')?></span>
+          <span><i class="fas fa-sitemap"></i><?=Lx::t('backend', 'Отделение')?></span>
         </a>
       </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'doctor' ? 'menu-active' : ''?>">
@@ -81,7 +81,7 @@ use lajax\translatemanager\helpers\Language as Lx;
         </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'branch' ? 'menu-active' : ''?>">
         <a href="<?=Url::to(['/branch'])?>" aria-expanded="false" aria-controls="service">
-          <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Филиалы')?></span>
+          <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Департамент филиалы')?></span>
         </a>
       </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'contact' ? 'menu-active' : ''?>">
