@@ -11,6 +11,7 @@ use yii\helpers\Url;
 use yii\widgets\Pjax;
 
 $this->title = Lx::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend', 'Our Doctors');
+$specialty = 'specialty_'.Yii::$app->language;
 ?>
 <?= Banner::widget(['title' => $this->title]) ?>
 <div class="container">
@@ -54,27 +55,7 @@ $this->title = Lx::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend'
                             <div class="team-name py-3 d-flex flex-column justify-content-between" style="flex: 1">
                                 <h4 class="text-capitalize"
                                     style="flex: 1"><?= Html::a($doctor->fullname, Url::to(['doctor-profile', 'id' => $doctor->id])) ?></h4>
-                                    <?php if($doctor->id==7 && Yii::$app->language=='ru')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Заместитель Главного врача</p>
-                                    <?php
-                                    }
-                                    elseif($doctor->id==7 && Yii::$app->language=='uz')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Bosh shifokor o'rinbosari</p>
-                                   <?php
-                                   }
-                                   elseif($doctor->id==7 && Yii::$app->language=='en')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Deputy Chief Physician</p>
-                                   <?php
-                                   }
-                                    else
-                                    {?>
-                                        <p class="cl-green" style="flex: 1"><?= $doctor->department->name ?></p>
-                                   <?php
-                                   }?>
-                                
+                                        <p class="cl-green" style="flex: 1"><?= (empty($doctor->$specialty)) ? $doctor->department->name : $doctor->$specialty; ?></p>
                             </div>
                         </div>
                     </div>

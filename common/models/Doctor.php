@@ -26,6 +26,9 @@ use lajax\translatemanager\helpers\Language as Lx;
  * @property string|null $first_name_en
  * @property string|null $last_name_en
  * @property string|null $middle_name_en
+ * @property string|null $specialty_uz
+ * @property string|null $specialty_ru
+ * @property string|null $specialty_en
  *
  * @property Department $department
  * @property DoctorService[] $doctorServices
@@ -48,7 +51,7 @@ class Doctor extends \yii\db\ActiveRecord
         return [
             [['department_id', 'first_name_ru', 'last_name_ru', 'middle_name_ru', 'first_name_uz', 'last_name_uz', 'middle_name_uz', 'first_name_en', 'last_name_en', 'middle_name_en', 'about_uz', 'about_ru', 'about_en', 'img'], 'required'],
             [['department_id'], 'integer'],
-            [['date', 'experience'], 'safe'],
+            [['date', 'experience','specialty_uz','specialty_ru','specialty_en'], 'safe'],
             [['about_uz', 'about_ru', 'about_en'], 'string'],
             [['phone'], 'string', 'max' => 16],
             [['img'], 'string', 'max' => 120],
