@@ -12,6 +12,7 @@ use yii\captcha\Captcha;
 
 $social = $this->params['social'];
 $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend', 'Contacts');
+$specialty = 'specialty_'.Yii::$app->language;
 ?>
 <?= Banner::widget(['title' => $this->title]) ?>
 <?= \dominus77\sweetalert2\Alert::widget(['useSessionFlash' => true]) ?>
@@ -97,26 +98,7 @@ $this->title = Yii::t('frontend', "ZARMED PRATIKSHA") . " | " . Yii::t('frontend
                         </div>
                         <div class="team-name-ab bx-shadow pt-4 pb-2">
                             <?= Html::a(' <h4 class="text-capitalize">' . $doctor->fullname . '</h4>', ['doctor-profile', 'id' => $doctor->id]) ?>
-                            <?php if($doctor->id==2 && Yii::$app->language=='ru')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Главный врач</p>
-                                    <?php
-                                    }
-                                    elseif($doctor->id==2 && Yii::$app->language=='uz')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Bosh shifokor</p>
-                                   <?php
-                                   }
-                                   elseif($doctor->id==2 && Yii::$app->language=='en')
-                                    {?>
-                                        <p class="cl-green" style="flex: 1">Chief Medical Officer</p>
-                                   <?php
-                                   }
-                                    else
-                                    {?>
-                                        <p class="cl-green" style="flex: 1"><?= $doctor->department->name ?></p>
-                                   <?php
-                                   }?>
+                            <p class="cl-green" style="flex: 1"><?= (empty($doctor->$specialty)) ? $doctor->department->name : $doctor->$specialty; ?></p>
                         </div>
                     </div>
                 </div>
