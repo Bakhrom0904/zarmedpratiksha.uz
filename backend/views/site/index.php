@@ -72,7 +72,8 @@ $this->title = Lx::t('backend', 'Admin panel - Zarmed Pratiksha Hospital');
               <tr>
                 <th scope="col"><?=Lx::t('backend', 'Patient')?></th>            
                 <th scope="col"><?=Lx::t('backend', 'Department')?></th>
-                <th scope="col"><?=Lx::t('backend', 'Contact')?></th>
+                <th scope="col"><?=Lx::t('backend', 'Date')?></th>
+                  <th scope="col"><?=Lx::t('backend', 'Contact')?></th>
                 <th scope="col"><?=Lx::t('backend', 'Status')?></th>
               </tr>
             </thead>
@@ -81,6 +82,7 @@ $this->title = Lx::t('backend', 'Admin panel - Zarmed Pratiksha Hospital');
                 <tr>
                   <td class="ms-table-f-w"><?=$a->fullname?></td>     
                   <td><?=$a->department->{"name_$lang"}?></td>
+                    <td><?=Yii::$app->formatter->asDate($a->date)?></td>
                   <td><?=$a->phone?></td>
                   <td><label class="ms-switch">
                       <input type="checkbox" disabled <?=$a->status==1?'checked':''?>>
