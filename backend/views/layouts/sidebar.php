@@ -111,7 +111,7 @@ use lajax\translatemanager\helpers\Language as Lx;
       </li>
         <li class="menu-item <?=Yii::$app->controller->id == 'google-ads' ? 'menu-active' : ''?>">
             <a href="<?=Url::to(['/google-ads'])?>" aria-expanded="false" aria-controls="menus">
-                <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Google ads')?></span>
+                <span><i class="material-icons fs-16">widgets</i><?=Lx::t('backend', 'Landing pages')?></span>
             </a>
         </li>
       <li class="menu-item <?=Yii::$app->controller->id == 'job' ? 'menu-active' : ''?>">
